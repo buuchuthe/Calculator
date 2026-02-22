@@ -1,0 +1,131 @@
+/* Small additions to handle the layout of the link cards */
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .nav-card {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s;
+    }
+    .nav-card:hover {
+      transform: scale(1.02);
+    }
+    .nav-card .result-box {
+      cursor: pointer;
+      margin-top: 0; /* Override the margin-top from style.css */
+      border-left: 5px solid #007bff;
+    }
+    .description {
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 5px;
+      display: block;
+    }
+
+/* Styling for main calculator */
+#calculator-app {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 480px;
+    margin: 20px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border: 1px solid #eee;
+}
+
+.section-title {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.config-section {
+    margin-bottom: 20px;
+}
+
+.radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.input-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input, select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+input[type="number"] {
+    flex-grow: 1;
+}
+
+#calc-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#calc-btn:hover {
+    background-color: #0056b3;
+}
+
+.result-box {
+    margin-top: 25px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-left: 5px solid #007bff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+#current-output {
+    font-weight: bold;
+    color: #007bff;
+}
+
+#reset-btn {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#reset-btn:hover {
+    background-color: #5a6268;
+}
+
+/* Optional: Animation for the info content */
+#info-content {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+}

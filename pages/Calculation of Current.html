@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electrical Current Calculator</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <div id="calculator-app">
+    <a href="../index.html" class="back-link">← Tools Hub</a>
+    <h2>Current Calculator</h2>
+    
+    <section class="config-section">
+      <label class="section-title">1. System Type</label>
+      <div class="radio-group">
+        <label><input type="radio" name="system" value="dc" checked> DC</label>
+        <label><input type="radio" name="system" value="ac1"> AC 1-Phase</label>
+        <label><input type="radio" name="system" value="ac3"> AC 3-Phase</label>
+      </div>
+    </section>
+
+  <section class="config-section">
+    <label class="section-title">2. Calculation Parameters</label>
+    <select id="param-selector"></select>
+  </section>
+
+  <section id="input-fields" class="config-section">
+    </section>
+    
+  <section id="pf-container" class="config-section" style="display:none;">
+    <label class="section-title">3. Phase Factor / Angle</label>
+    <div class="input-row">
+    <select id="pf-type">
+      <option value="cos">cos φ (PF)</option>
+      <option value="sin">sin φ</option>
+      <option value="tan">tan φ</option>
+      <option value="rad">φ (rad)</option>
+      <option value="deg">φ (°)</option>
+    </select>
+    <input type="number" id="pf-value" value="0.85" step="0.01">
+    </div>
+  </section>
+
+  <button id="calc-btn">Calculate Current</button>
+
+  <div class="result-box">
+    <span>Current (I):</span>
+    <span id="current-output">--</span>
+  </div>
+  </div>
+
+  <script src="../assets/js/calculate_current.js"></script>
+</body>
+</html>

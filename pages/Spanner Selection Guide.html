@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spanner Selection Guide</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <div id="calculator-app">
+    <a href="../index.html" class="back-link">← Tools Hub</a>
+    <h2>Spanner Selection</h2>
+    
+    <div class="input-row">
+      <label>Metric Thread Size:</label>
+      <select id="metric-thread-size">
+        <option value="" selected="selected">Select an option</option>
+      </select>
+    </div>
+
+    <div class="result-box">
+      <span>DIN Standard</span>
+      <div id="din-af" class="size-val">--</div>
+      <span>ISO Standard</span>
+      <div id="iso-af" class="size-val">--</div>
+    </div>
+
+    <div class="input-row">
+      <label>Imperial Thread Size:</label>
+      <select id="imperial-thread-size">
+        <option value="" selected="selected">Select an option</option>
+      </select>
+    </div>
+
+    <div class="result-box">
+      <span>ASME Standard</span>
+      <div id="asme-af" class="size-val">--</div>
+      <span>BS Standard</span>
+      <div id="bs-af" class="size-val">--</div>
+    </div>
+
+    <div class="info-tool" style="margin-top: 25px; border-top: 1px solid #eee; padding-top: 15px;">
+      <div style="cursor: pointer; color: #007bff; display: flex; align-items: center; gap: 5px;" onclick="toggleInfo()">
+        <span style="border: 1px solid #007bff; border-radius: 50%; width: 18px; height: 18px; display: inline-flex; justify-content: center; align-items: center; font-size: 12px; font-weight: bold;">i</span>
+        <span style="font-size: 0.9rem;">Data source</span>
+      </div>
+      
+      <div id="info-content" style="display: none; font-size: 0.85rem; color: #555; line-height: 1.4; margin-top: 10px; background: #f9f9f9; padding: 10px; border-radius: 8px;">
+        <a href="https://www.slsbearings.com/centralengineering/spanner.html">Spanner Selection</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="../assets/js/spanner_size_select.js"></script>
+</body>
+</html>

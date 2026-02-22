@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neutral Current Calculator</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <div id="calculator-app">
+    <a href="../index.html" class="back-link">← Tools Hub</a>
+    <h2>Neutral Current</h2>
+    
+    <div class="input-row">
+      <label>Phase A (Amps):</label>
+      <input type="number" id="cur-a" value="10">
+    </div>
+      
+    <div class="input-row">
+      <label>Phase B (Amps):</label>
+      <input type="number" id="cur-b" value="10">
+    </div>
+    
+    <div class="input-row">
+      <label>Phase C (Amps):</label>
+      <input type="number" id="cur-c" value="10">
+    </div>
+
+    <button id="calc-btn" onclick="calculate()">Calculate</button>
+    
+    <div class="result-box">
+      <p>Neutral Current: <strong id="res-in">0.00</strong> A</p>
+      <p id="balance-status" style="font-style: italic; color: green;"></p>
+    </div>
+  </div>
+
+  <script src="../assets/js/calculate_neutral_current.js"></script>
+</body>
+</html>
