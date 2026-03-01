@@ -1,34 +1,35 @@
 /* Small additions to handle the layout of the link cards */
-    .card-container {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-      margin-top: 20px;
-    }
-    .nav-card {
-      display: block;
-      text-decoration: none;
-      color: inherit;
-      transition: transform 0.2s;
-    }
-    .nav-card:hover {
-      transform: scale(1.02);
-    }
-    .nav-card .result-box {
-      cursor: pointer;
-      margin-top: 0; /* Override the margin-top from style.css */
-      border-left: 5px solid #007bff;
-    }
-    .description {
-      font-size: 0.9rem;
-      color: #666;
-      margin-top: 5px;
-      display: block;
-    }
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+.nav-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s;
+}
+.nav-card:hover {
+    transform: scale(1.02);
+}
+.nav-card .result-box {
+    cursor: pointer;
+    margin-top: 0; /* Override the margin-top from style.css */
+    border-left: 5px solid #007bff;
+}
+.description {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 5px;
+    display: block;
+}
 
 /* Styling for main calculator */
 #calculator-app {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
     max-width: 480px;
     margin: 20px auto;
     padding: 25px;
