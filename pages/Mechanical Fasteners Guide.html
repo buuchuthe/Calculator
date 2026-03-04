@@ -7,26 +7,31 @@
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-  <div id="calculator-app">
-    <a href="../index.html" class="back-link">← Tools Hub</a>
-    <h2>Mechanical Fasteners (Linh Kiện Lắp Ghép)</h2>
+  <div class="main-container">
+    <div class="card">
+      <a href="../index.html">← Home</a>
+      <h2>Mechanical Fasteners (Linh Kiện Lắp Ghép)</h2>
+    </div>
     
-    <div class="input-row">
+    <div class="card">
       <label>Hardware type</label>
       <select id="hardware">
         <option value="" selected="selected">Select a type</option>
       </select>
     </div>
 
-    <div class="input-row">
+    <div class="card">
       <label>Specification</label>
       <select id="spec">
         <option value="" selected="selected">Select a spec</option>
       </select>
     </div>
 
-    <div id="result-box">
+    <div class="result-card">
       <ul id="data-list"></ul>
+    </div>
+
+    <div class="card">
       <p id="description"></p>
       <img id="dimension" src="" alt="Dimension Drawing" style="width:100%; height:auto; display:none;">
     </div>

@@ -7,28 +7,32 @@
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-  <div id="calculator-app">
-    <a href="../index.html" class="back-link">← Tools Hub</a>
-    <h2>Neutral Current</h2>
+  <div class="main-container">
+    <div class="card">
+      <a href="../index.html">← Home</a>
+      <h2>Neutral Current</h2>
+    </div>
     
-    <div class="input-row">
+    <div class="card">
       <label>Phase A (Amps):</label>
       <input type="number" id="cur-a" value="10">
     </div>
       
-    <div class="input-row">
+    <div class="card">
       <label>Phase B (Amps):</label>
       <input type="number" id="cur-b" value="10">
     </div>
     
-    <div class="input-row">
+    <div class="card">
       <label>Phase C (Amps):</label>
       <input type="number" id="cur-c" value="10">
     </div>
 
-    <button id="calc-btn" onclick="calculate()">Calculate</button>
+    <div class="card">
+      <button id="calc-btn" onclick="calculate()">Calculate</button>
+    </div>
     
-    <div class="result-box">
+    <div class="result-card">
       <p>Neutral Current: <strong id="res-in">0.00</strong> A</p>
       <p id="balance-status" style="font-style: italic; color: green;"></p>
     </div>

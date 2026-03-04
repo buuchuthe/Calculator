@@ -1,53 +1,88 @@
-/* Small additions to handle the layout of the link cards */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font: 1rem / 1.5 sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: #1D1F20;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+    background-color: #D4D6D8;
+    
+    line-height: 1.15;
+}
+
+b,strong {
+    font-weight: 700;
+}
+
+a {
+    color: #23497B;
+}
+
+a:hover {
+    color: #FF6600;
+}
+
+body {
+    overflow-y: scroll !important
+}
+
+.main-container {
+    width: 100%;
+    max-width: 480px;
+    margin: 10px auto;
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+}
+
 .card-container {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin-top: 20px;
 }
+
+.card{
+    padding: 10px;
+}
+
+.result-card {
+    padding: 10px;
+    margin: 10px 0;
+    background: #f8f9fa;
+    border-left: 5px solid #007bff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
 .nav-card {
-    display: block;
+    display: block;    
     text-decoration: none;
-    color: inherit;
     transition: transform 0.2s;
 }
 .nav-card:hover {
     transform: scale(1.02);
 }
-.nav-card .result-box {
+.nav-card .card {
     cursor: pointer;
-    margin-top: 0; /* Override the margin-top from style.css */
     border-left: 5px solid #007bff;
+    font-size: 1.2rem;
 }
+.nav-card .card:hover {
+    border-left: 5px solid #FF6600;
+}
+
 .description {
     font-size: 0.9rem;
     color: #666;
-    margin-top: 5px;
-    display: block;
-}
-
-/* Styling for main calculator */
-#calculator-app {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 100%;
-    max-width: 480px;
-    margin: 20px auto;
-    padding: 25px;
-    background: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-    border: 1px solid #eee;
-}
-
-.section-title {
-    display: block;
-    font-weight: 600;
-    margin-bottom: 8px;
-    color: #444;
-}
-
-.config-section {
-    margin-bottom: 20px;
+    margin: 5px 0;
 }
 
 .radio-group {
@@ -58,20 +93,21 @@
 
 .input-row {
     display: flex;
+    padding: 10px;
     align-items: center;
     gap: 10px;
-    margin-bottom: 10px;
 }
 
 input, select {
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 6px;
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 
 input[type="number"] {
     flex-grow: 1;
+    min-width: 50px;
 }
 
 #calc-btn {
@@ -90,22 +126,6 @@ input[type="number"] {
     background-color: #0056b3;
 }
 
-.result-box {
-    margin-top: 25px;
-    padding: 15px;
-    background: #f8f9fa;
-    border-left: 5px solid #007bff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.2rem;
-}
-
-#current-output {
-    font-weight: bold;
-    color: #007bff;
-}
-
 #reset-btn {
     background-color: #6c757d;
     color: white;
@@ -121,7 +141,6 @@ input[type="number"] {
     background-color: #5a6268;
 }
 
-/* Optional: Animation for the info content */
 #info-content {
     animation: fadeIn 0.3s ease-in-out;
 }

@@ -7,26 +7,27 @@
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
+  <div class="main-container">
+    <div class="card">
+      <a href="../index.html">← Home</a>
+      <h2>Voltage Drop</h2>
+    </div>  
 
-  <div id="calculator-app">
-    <a href="../index.html" class="back-link">← Tools Hub</a>
-    <h2>Voltage Drop</h2>
-
-    <div class="input-row">
+    <div class="card">
       <label>Cable type:</label>
       <select id="cable">
         <option value="" selected="selected">Select an option</option>
       </select>
     </div>
 
-    <div class="input-row">
+    <div class="card">
       <label>Installation:</label>
       <select id="installation">
       <option value="" selected="selected">Select an option</option>
       </select>
     </div>
     
-    <div class="input-row">
+    <div class="card">
       <label>Arrangement:</label>
       <select id="arrangement">
       <option value="" selected="selected">Select an option</option>
@@ -37,11 +38,11 @@
       <img id="arrangement-img" alt="Illustration" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #ddd;">
     </div>
     
-    <div>
-    Description: <p id="cable-description"></p>
+    <div class="card">
+      Description: <p id="cable-description"></p>
     </div>
     
-    <div class="input-row">
+    <div class="card">
       <label>Size (mm²):</label>
       <select id="cable-size">
       <option value="" selected="selected">Select an option</option>
@@ -50,12 +51,12 @@
 
     <hr>
 
-    <div class="input-row">
+    <div class="card">
       <label>Source (V):</label>
       <input type="number" id="v-source" value="230">
     </div>
 
-    <div class="input-row">
+    <div class="card">
       <label>Load Power:</label>
       <input type="number" id="p-load" placeholder="Value" style="flex: 1;">
       <select id="p-unit" style="flex: 0 0 80px;">
@@ -69,34 +70,34 @@
       </select>
     </div>
 
-    <div class="input-row">
+    <div class="card">
       <label>Length (m):</label>
       <input type="number" id="length" placeholder="Meters">
     </div>
 
-    <div class="input-row">
+    <div class="card">
       <label>Power Factor:</label>
       <input type="number" id="pf" value="0.85" step="0.01">
     </div>
 
-    <div class="input-row">
+    <div class="card">
       <label>Efficiency %:</label>
       <input type="number" id="eff" value="100" min="1" max="100">
     </div>
 
-    <div class="button-group" style="display: flex; gap: 10px; margin-top: 15px;">
+    <div class="card" style="display: flex; gap: 10px; margin-top: 15px;">
       <button id="calc-btn" onclick="calculate()" style="flex: 2;">Calculate</button>
       <button id="reset-btn" onclick="resetCalculator()" style="flex: 1; background-color: #6c757d;">Reset</button>
     </div>
 
-    <div id="results" class="result-box" style="display:none;">
+    <div id="results" class="result-card" style="display:none;">
       <p>Load Current: <strong id="res-ib">0 A</strong></p>
       <p>Cable Rating: <strong id="res-iz">0 A</strong></p>
       <p>Voltage at Load: <strong id="res-vload">0 V</strong></p>
       <p>Total Drop: <strong id="res-vdrop">0 V</strong> <strong id="res-drop">0%</strong> <span id="res-status"></span></p>
     </div>
     
-    <div class="info-tool" style="margin-top: 25px; border-top: 1px solid #eee; padding-top: 15px;">
+    <div class="card">
       <div style="cursor: pointer; color: #007bff; display: flex; align-items: center; gap: 5px;" onclick="toggleInfo()">
         <span style="border: 1px solid #007bff; border-radius: 50%; width: 18px; height: 18px; display: inline-flex; justify-content: center; align-items: center; font-size: 12px; font-weight: bold;">i</span>
         <span style="font-size: 0.9rem;">Data source</span>
