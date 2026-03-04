@@ -7,62 +7,61 @@
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
+  <div class="main-container">
+    <div class="card">
+      <a href="../index.html">← Home</a>
+    <h2>Power Factor Correction</h2>
+    </div>
 
-< >
-  <div class="card">
-    <a href="../index.html">← Home</a>
-  <h2>Power Factor Correction</h2>
-  </div>
+    <div class="card">
+      <label>Connection Type:</label>
+      <select id="conn-type">
+        <option value="1p">1-Phase</option>
+        <option value="3pd">3-Phase Delta (Δ)</option>
+        <option value="3ps">3-Phase Star (Y)</option>
+      </select>
+    </div>
 
-  <div class="card">
-    <label>Connection Type:</label>
-    <select id="conn-type">
-      <option value="1p">1-Phase</option>
-      <option value="3pd">3-Phase Delta (Δ)</option>
-      <option value="3ps">3-Phase Star (Y)</option>
-    </select>
-  </div>
-
-  <div class="card">
-    <label>Line Voltage (V):</label>
-    <input type="number" id="sys-v" value="400">
-  </div>
-  
-  <div class="card">
-    <label>Freq (Hz):</label>
-    <input type="number" id="sys-f" value="50">
-  </div>  
-
-  <div class="card">
-    <label>Load Value:</label>
-    <input type="number" id="load-val" value="50">
-    <select id="load-unit">
-      <option value="kw" selected="selected">kW</option>
-      <option value="w">W</option>
-      <option value="mw">MW</option>
-      <option value="kva">kVA</option>
-      <option value="mva">MVA</option>
-    </select>
-  </div>
-
-  <div class="card">
-    <label>Current PF:</label>
-    <input type="number" id="pf-now" value="0.95" min="0.01" max="1" step="0.01">
-  </div>
+    <div class="card">
+      <label>Line Voltage (V):</label>
+      <input type="number" id="sys-v" value="400">
+    </div>
     
-  <div class="card">
-    <label>Target PF:</label>
-    <input type="number" id="pf-aim" value="0.95" min="0.01" max="1" step="0.01">
-  </div>
+    <div class="card">
+      <label>Freq (Hz):</label>
+      <input type="number" id="sys-f" value="50">
+    </div>  
 
-  <button id="calc-btn" onclick="calculate()">Calculate</button>
+    <div class="card">
+      <label>Load Value:</label>
+      <input type="number" id="load-val" value="50">
+      <select id="load-unit">
+        <option value="kw" selected="selected">kW</option>
+        <option value="w">W</option>
+        <option value="mw">MW</option>
+        <option value="kva">kVA</option>
+        <option value="mva">MVA</option>
+      </select>
+    </div>
 
-  <div class="result-card" style="display: block;">
-    <p>Required Bank Size: <strong id="res-kvar">0</strong> kVAr</p>
-    <p>Capacitance (per phase): <strong id="res-uf">0</strong> μF</p>
-    <p>Bank Line Current: <strong id="res-amp">0</strong> A</p>
+    <div class="card">
+      <label>Current PF:</label>
+      <input type="number" id="pf-now" value="0.95" min="0.01" max="1" step="0.01">
+    </div>
+      
+    <div class="card">
+      <label>Target PF:</label>
+      <input type="number" id="pf-aim" value="0.95" min="0.01" max="1" step="0.01">
+    </div>
+
+    <button id="calc-btn" onclick="calculate()">Calculate</button>
+
+    <div class="result-card" style="display: block;">
+      <p>Required Bank Size: <strong id="res-kvar">0</strong> kVAr</p>
+      <p>Capacitance (per phase): <strong id="res-uf">0</strong> μF</p>
+      <p>Bank Line Current: <strong id="res-amp">0</strong> A</p>
+    </div>
   </div>
-</div>
 
 <script src="../assets/js/calculate_pf_correction.js"></script>
 </body>

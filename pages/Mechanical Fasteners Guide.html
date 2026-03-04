@@ -14,7 +14,7 @@
     </div>
     
     <div class="card">
-      <label>Hardware type</label>
+      <p>Hardware type</p>
       <select id="hardware">
         <option value="" selected="selected">Select a type</option>
       </select>
@@ -27,13 +27,23 @@
       </select>
     </div>
 
-    <div class="result-card">
-      <ul id="data-list"></ul>
+    <div class="result-card" id="result" style="display: block;">
     </div>
 
     <div class="card">
       <p id="description"></p>
       <img id="dimension" src="" alt="Dimension Drawing" style="width:100%; height:auto; display:none;">
+    </div>
+
+    <div class="card">
+      <div style="cursor: pointer; color: #007bff; display: flex; align-items: center; gap: 5px;" onclick="toggleInfo()">
+        <span style="border: 1px solid #007bff; border-radius: 50%; width: 18px; height: 18px; display: inline-flex; justify-content: center; align-items: center; font-size: 12px; font-weight: bold;">i</span>
+        <span style="font-size: 0.9rem;">Data source</span>
+      </div>
+      
+      <div id="info-content" style="display: none; font-size: 0.85rem; color: #555; line-height: 1.4; margin-top: 10px; background: #f9f9f9; padding: 10px; border-radius: 8px;">
+        <a href="https://www.globalfastener.com/standards/">Standard & CAD - Global Fastener</a>
+      </div>
     </div>
   </div>
 

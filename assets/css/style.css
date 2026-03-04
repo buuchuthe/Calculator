@@ -107,7 +107,7 @@ input, select {
 
 input[type="number"] {
     flex-grow: 1;
-    min-width: 50px;
+    min-width: 80px;
 }
 
 #calc-btn {
