@@ -7,40 +7,40 @@
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-  <div class="main-container">
-    <div class="card">
+  <div class="main-box">
+    <div class="vbox">
       <a href="../index.html">← Home</a>
       <h2>Current Calculator</h2>
     </div>
     
-    <div class="card">
+    <div class="vbox">
       <p>Current type</p>
-      <div class="radio-group">
+      <div class="hbox">
         <label><input type="radio" name="system" value="dc" checked> DC</label>
         <label><input type="radio" name="system" value="ac1"> AC 1-Phase</label>
         <label><input type="radio" name="system" value="ac3"> AC 3-Phase</label>
       </div>
     </div>
 
-    <div class="card">
+    <div class="vbox">
       <p>Calculation Parameters</p>
       <select id="param-selector"></select>
     </div>
 
-    <div id="input-fields">
-    </div>
+    <div id="input-fields"></div>
       
-    <div id="pf-container" class="card" style="display:none;">
+    <div id="pf-container" class="vbox" style="display:none;">
       <p>Phase Factor / Angle</p>
-      <select id="pf-type">
-        <option value="cos">cos φ (PF)</option>
-        <option value="sin">sin φ</option>
-        <option value="tan">tan φ</option>
-        <option value="rad">φ (rad)</option>
-        <option value="deg">φ (°)</option>
-      </select>
-      <input type="number" id="pf-value" value="0.85" step="0.01">
-      
+      <div class="hbox">
+        <select id="pf-type">
+          <option value="cos">cos φ (PF)</option>
+          <option value="sin">sin φ</option>
+          <option value="tan">tan φ</option>
+          <option value="rad">φ (rad)</option>
+          <option value="deg">φ (°)</option>
+        </select>
+        <input type="number" id="pf-value" value="0.85" step="0.01">      
+      </div>
     </div>
 
     <div class="card">

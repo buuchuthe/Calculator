@@ -7,32 +7,32 @@
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-  <div class="main-container">
-    <div class="card">
+  <div class="main-box">
+    <div class="vbox">
       <a href="../index.html">← Home</a>
       <h2>Neutral Current</h2>
     </div>
     
-    <div class="card">
-      <label>Phase A (Amps):</label>
+    <div class="hbox">
+      <span>Phase A (Amps):</span>
       <input type="number" id="cur-a" value="10">
     </div>
       
-    <div class="card">
-      <label>Phase B (Amps):</label>
+    <div class="hbox">
+      <span>Phase B (Amps):</span>
       <input type="number" id="cur-b" value="10">
     </div>
     
-    <div class="card">
-      <label>Phase C (Amps):</label>
+    <div class="hbox">
+      <span>Phase C (Amps):</span>
       <input type="number" id="cur-c" value="10">
     </div>
 
-    <div class="card">
+    <div class="hbox">
       <button id="calc-btn" onclick="calculate()">Calculate</button>
     </div>
     
-    <div class="result-card">
+    <div class="vbox" style="border-left: 5px solid #007bff; padding: 10px;">
       <p>Neutral Current: <strong id="res-in">0.00</strong> A</p>
       <p id="balance-status" style="font-style: italic; color: green;"></p>
     </div>

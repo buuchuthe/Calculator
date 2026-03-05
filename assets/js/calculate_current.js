@@ -70,8 +70,8 @@ function updateInputs() {
         }
 
         return `
-            <div class="input-row">
-                <label style="min-width: 80px;">${label}:</label>
+            <div class="hbox">
+                <span>${label}:</span>
                 <input type="number" class="calc-val" data-type="${key}" step="any" placeholder="0">
                 <select class="calc-unit" data-for="${key}">
                     ${options.map(u => {
@@ -161,8 +161,10 @@ calcBtn.addEventListener('click', () => {
             }
         }
     } 
-    else if (V && (R || Z)) I = V / (R || Z);
-    else if (P && R) I = Math.sqrt(P / R);
+    else if (V && Z) I = V / Z;
+    else if (V && R) I = V / (R / cosPhi);
+    else if (P && R) I = Math.sqrt(P / (R * phaseMultiplier));
+    else if (P && Z) I = Math.sqrt(P / (Z * cosPhi * phaseMultiplier));
 
     output.textContent = formatResult(I);
 });

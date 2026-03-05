@@ -7,14 +7,14 @@
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-  <div class="main-container">
-    <div class="card">
+  <div class="main-box">
+    <div class="vbox">
       <a href="../index.html">← Home</a>
       <h2>Temperature Sensors</h2>
     </div>
 
-    <div class="card">
-      <label>Sensor Type:</label>
+    <div class="hbox">
+      <span>Sensor Type:</span>
       <select id="sensor-type" onchange="toggleInputs()">
         <optgroup label="RTD / Thermistor">
           <option value="pt100" selected="selected">PT100</option>
@@ -38,30 +38,27 @@
       </select>
     </div>
 
-    <div class="card">
-      <label>Calculate For:</label>
-      <select id="calc-mode" onchange="updateLabels()">
-        </select>
+    <div class="hbox">
+      <span>Calculate For:</span>
+      <select id="calc-mode" onchange="updateLabels()"></select>
     </div>
 
-    <div class="card">
-      <label id="input-label">Input Value:</label>
-      <div style="display: flex; gap: 5px;">
-        <input type="number" id="input-val" value="100" step="0.01">
-        <span id="unit-label">Ω</span>
-      </div>
+    <div class="hbox">
+      <span id="input-label">Input Value:</span>
+      <input type="number" id="input-val" value="100" step="0.01">
+      <span id="unit-label">Ω</span>
     </div>
 
-    <div class="card">
+    <div class="hbox">
       <button id="calc-btn" onclick="calculate()">Calculate</button>
     </div>
 
-    <div class="result-card">
+    <div class="hbox" style="border-left: 5px solid #007bff; padding: 10px;">
       <span id="res-label">Temperature</span>
       <div id="res-val">--</div>
     </div>
 
-    <div class="card">
+    <div class="vbox">
       <div style="cursor: pointer; color: #007bff; display: flex; align-items: center; gap: 5px;" onclick="toggleInfo()">
         <span style="border: 1px solid #007bff; border-radius: 50%; width: 18px; height: 18px; display: inline-flex; justify-content: center; align-items: center; font-size: 12px; font-weight: bold;">i</span>
         <span style="font-size: 0.9rem;">Data source</span>
