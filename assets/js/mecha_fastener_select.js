@@ -1614,6 +1614,60 @@ const hardware = {
       "Φ50": {d: 50.5, d2: 31.5, s: 9.5,},
     }
   },
+  'CHỐT CHẺ DIN94-1983': {
+    dim: "DIN94.png",
+    eng: "Split Pins",
+    desc: `Đơn vị mm<br>
+    <b>d</b>: Đường kính thân<br>
+    <b>b</b>: Chiều dài đầu<br>
+    <b>c</b>: Đường kính đầu<br>
+    `,
+    spec: {
+      "0.6": {d: 0.5, b: 2, c: 1,},
+      "0.8": {d: 0.7, b: 2.4, c: 1.4,},
+      "1": {d: 0.9, b: 3, c: 1.8,},
+      "1.2": {d: 1, b: 3, c: 2,},
+      "1.6": {d: 1.4, b: 3.2, c: 2.8,},
+      "2": {d: 1.8, b: 4, c: 3.6,},
+      "2.5": {d: 2.3, b: 5, c: 4.6,},
+      "3.2": {d: 2.9, b: 6.4, c: 5.8,},
+      "4": {d: 3.7, b: 8, c: 7.4,},
+      "5": {d: 4.6, b: 10, c: 9.2,},
+      "6.3": {d: 5.9, b: 12.6, c: 11.8,},
+      "8": {d: 7.5, b: 16, c: 15,},
+      "10": {d: 9.5, b: 20, c: 19,},
+      "13": {d: 12.4, b: 26, c: 24.8,},
+      "16": {d: 15.4, b: 32, c: 30.8,},
+      "20": {d: 19.3, b: 40, c: 38.6,},
+    }
+  },
+  'CHỐT CHẺ R DIN11024-1973': {
+    dim: "DIN11024.png",
+    eng: "Spring Cotters",
+    desc: `Đơn vị mm<br>
+    <b>d</b>: Đường kính thân<br>
+    <b>b</b>: Chiều dài đầu<br>
+    <b>c</b>: Đường kính đầu<br>
+    `,
+    spec: {
+      "0.6": {d: 0.5, b: 2, c: 1,},
+      "0.8": {d: 0.7, b: 2.4, c: 1.4,},
+      "1": {d: 0.9, b: 3, c: 1.8,},
+      "1.2": {d: 1, b: 3, c: 2,},
+      "1.6": {d: 1.4, b: 3.2, c: 2.8,},
+      "2": {d: 1.8, b: 4, c: 3.6,},
+      "2.5": {d: 2.3, b: 5, c: 4.6,},
+      "3.2": {d: 2.9, b: 6.4, c: 5.8,},
+      "4": {d: 3.7, b: 8, c: 7.4,},
+      "5": {d: 4.6, b: 10, c: 9.2,},
+      "6.3": {d: 5.9, b: 12.6, c: 11.8,},
+      "8": {d: 7.5, b: 16, c: 15,},
+      "10": {d: 9.5, b: 20, c: 19,},
+      "13": {d: 12.4, b: 26, c: 24.8,},
+      "16": {d: 15.4, b: 32, c: 30.8,},
+      "20": {d: 19.3, b: 40, c: 38.6,},
+    }
+  },
 }
 
 function updateSelect() {
@@ -1642,13 +1696,13 @@ function updateSelect() {
   } 
 
   specSel.onchange = function(){
-    const db = hardware[hardwareSel.value]["spec"][this.value];
+    const db = hardware[hardwareSel.value];
     dimSel.style.display = 'inline';
-    dimSel.src = `../assets/img/${hardware[hardwareSel.value]["dim"]}`;
-    descSel.innerHTML = hardware[hardwareSel.value]["eng"]+"<br>"+hardware[hardwareSel.value]["desc"];
+    dimSel.src = `../assets/img/${db["dim"]}`;
+    descSel.innerHTML = db["eng"]+"<br>"+db["desc"];
 
     // Dynamically populate 'Data' list
-    resultSel.innerHTML = Object.entries(db).map(([key, value]) => `<strong>${key}</strong>: ${value}`).join(', ');
+    resultSel.innerHTML = Object.entries(db["spec"][this.value]).map(([key, value]) => `<strong>${key}</strong>: ${value}`).join(', ');
   }
 }
 

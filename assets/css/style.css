@@ -35,6 +35,12 @@ h2, p {
     margin-block: 10px 0;
 }
 
+table, th, td {
+    border: 1px solid black;
+    padding: 2px;
+    border-collapse: collapse;
+}
+
 .main-box {
     width: 100%;
     max-width: 480px;
