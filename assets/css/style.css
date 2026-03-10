@@ -38,7 +38,13 @@ h2, p {
 table, th, td {
     border: 1px solid black;
     padding: 2px;
-    border-collapse: collapse;
+    border-collapse: collapse; 
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
 }
 
 .main-box {
