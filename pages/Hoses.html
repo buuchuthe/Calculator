@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pipes and Fittings</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <div class="main-box">
+    <div class="vbox">
+      <a href="../index.html">← Home</a>
+      <h2>Pipes and Fittings</h2>
+    </div>
+    
+    <div class="hbox">
+      <span>Type:</span>
+      <select id="type">
+        <option value="" selected="selected">Select an option</option>
+      </select>
+    </div>
+
+    <div class="hbox">
+      <span>Subtype:</span>
+      <select id="subtype">
+        <option value="" selected="selected">Select an option</option>
+      </select>
+    </div>
+
+    <div class="hbox">
+      <span>Product:</span>
+      <select id="product">
+        <option value="" selected="selected">Select an option</option>
+      </select>
+    </div>
+
+    <div class="vbox" id="result" style="display: block; border-left: 5px solid #007bff; padding: 10px;">
+    </div>
+
+    <div class="vbox">
+      <img id="thumbnail" src="" style="width:100%; height:auto;">
+      <p id="description"></p>
+      <!--
+      <img id="dimension" src="" alt="Dimension Drawing" style="width:100%; height:auto; display:none;">
+      -->
+    </div>
+  </div>
+
+  <script src="../assets/js/hose.js"></script>
+</body>
+</html>

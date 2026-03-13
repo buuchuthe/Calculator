@@ -1,5 +1,5 @@
 const productMap = {
-  "Đầu nối nhanh khí nén (One touch fitting)": {
+  "ONE-TOUCH FITTINGS (Đầu nối nhanh khí nén)": {
     "Tube Metric": {
       "Union Straight": {
         dim: "PUC Series.jpg",
@@ -45,6 +45,17 @@ const productMap = {
         `,
         table: `<table><thead><tr><th>Model</th><th>∅D</th><th>∅P</th><th>L</th><th>J</th><th>∅C</th><th>B</th></tr></thead><tbody><tr><td>PY04</td><td>4</td><td>10.5</td><td>35.9</td><td>10.5</td><td>3.3</td><td>16.0</td></tr><tr><td>PY06</td><td>6</td><td>13.0</td><td>39.2</td><td>13.0</td><td>3.3</td><td>17.6</td></tr><tr><td>PY08</td><td>8</td><td>14.6</td><td>43.2</td><td>14.6</td><td>4.3</td><td>18.6</td></tr><tr><td>PY10</td><td>10</td><td>17.5</td><td>47.2</td><td>17.5</td><td>4.5</td><td>19.9</td></tr><tr><td>PY12</td><td>12</td><td>21.0</td><td>54.1</td><td>21.0</td><td>4.5</td><td>22.8</td></tr><tr><td>PY16</td><td>16</td><td>25.5</td><td>61.9</td><td>25.5</td><td>5.3</td><td>24.1</td></tr></tbody></table>`,
       },
+      "Union Cross": {
+        dim: "PZA Series.jpg",
+        eng: "Union Cross",
+        thumb: "https://cdcpneumatics.com/data/product/pza.png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D</th><th>∅P</th><th>L</th><th>E</th><th>∅C</th><th>B</th><th>M1</th><th>M2</th></tr></thead><tbody><tr><td>PZA04</td><td>4</td><td>10.5</td><td>37.2</td><td>35.5</td><td>3.3</td><td>14.8</td><td>6.4</td><td>12.8</td></tr><tr><td>PZA06</td><td>6</td><td>12.5</td><td>42.1</td><td>41.4</td><td>3.3</td><td>16.4</td><td>7.5</td><td>15.0</td></tr><tr><td>PZA08</td><td>8</td><td>15.0</td><td>46.6</td><td>44.7</td><td>4.2</td><td>18.3</td><td>9.1</td><td>18.2</td></tr><tr><td>PZA10</td><td>10</td><td>17.5</td><td>50.8</td><td>48.5</td><td>4.3</td><td>19.7</td><td>10.2</td><td>20.3</td></tr><tr><td>PZA12</td><td>12</td><td>20.5</td><td>57.7</td><td>55.3</td><td>4.3</td><td>22.4</td><td>11.9</td><td>23.7</td></tr></tbody></table>`,
+      },
       "Reducer Y": {
         dim: "PW Series.jpg",
         eng: "Reducer Y",
@@ -77,6 +88,17 @@ const productMap = {
         <b>Working Temperature Range</b>: 32~140℉, 0~60℃
         `,
         table: `<table><thead><tr><th>Model</th><th>∅D1</th><th>∅D2</th><th>∅P1</th><th>∅P2</th><th>L</th><th>E</th><th>∅C</th><th>B1</th><th>B2</th><th>M1</th><th>M2</th></tr></thead><tbody><tr><td>PGT0604</td><td>6</td><td>4</td><td>12.5</td><td>10.4</td><td>19</td><td>20.8</td><td>3.3</td><td>16.4</td><td>14.8</td><td>7.9</td><td>13.8</td></tr><tr><td>PGT0804</td><td>8</td><td>4</td><td>14.8</td><td>10.5</td><td>20.0</td><td>21.6</td><td>4.5</td><td>18.3</td><td>14.8</td><td>9.7</td><td>15.0</td></tr><tr><td>PGT0806</td><td>8</td><td>6</td><td>14.8</td><td>12.5</td><td>21.9</td><td>22.6</td><td>4.5</td><td>18.3</td><td>16.4</td><td>9.7</td><td>17.0</td></tr><tr><td>PGT1006</td><td>10</td><td>6</td><td>17.5</td><td>12.5</td><td>23.1</td><td>24.8</td><td>4.3</td><td>20.2</td><td>16.4</td><td>10.9</td><td>16.8</td></tr><tr><td>PGT1008</td><td>10</td><td>8</td><td>17.5</td><td>14.5</td><td>24.8</td><td>24.8</td><td>4.3</td><td>20.2</td><td>18.3</td><td>10.9</td><td>18.8</td></tr><tr><td>PGT1208</td><td>12</td><td>8</td><td>20.5</td><td>14.5</td><td>25.8</td><td>28.1</td><td>4.3</td><td>22.9</td><td>18.3</td><td>12.4</td><td>18.8</td></tr><tr><td>PGT1210</td><td>12</td><td>10</td><td>20.5</td><td>17.5</td><td>27.4</td><td>28.1</td><td>4.3</td><td>22.9</td><td>20.2</td><td>12.4</td><td>21.9</td></tr><tr><td>PGT1610</td><td>16</td><td>10</td><td>25.5</td><td>17.5</td><td>30.1</td><td>30.8</td><td>5.3</td><td>24.1</td><td>19.7</td><td>15.9</td><td>22.8</td></tr><tr><td>PGT1612</td><td>16</td><td>12</td><td>25.5</td><td>20.5</td><td>32.6</td><td>32.3</td><td>5.3</td><td>24.1</td><td>22.9</td><td>15.9</td><td>25.8</td></tr><tr><td>PGT0406</td><td>4</td><td>6</td><td>10.5</td><td>12.5</td><td>20.3</td><td>18.8</td><td>4.3</td><td>14.8</td><td>16.4</td><td>7.4</td><td>16.8</td></tr><tr><td>PGT0608</td><td>6</td><td>8</td><td>12.5</td><td>14.8</td><td>22.7</td><td>20.3</td><td>4.3</td><td>16.4</td><td>18.1</td><td>8.4</td><td>19.1</td></tr><tr><td>PGT0810</td><td>8</td><td>10</td><td>14.5</td><td>17.5</td><td>25.4</td><td>22.8</td><td>4.3</td><td>18.4</td><td>20.3</td><td>9.4</td><td>21.4</td></tr><tr><td>PGT1012</td><td>10</td><td>12</td><td>17.5</td><td>20.5</td><td>29.2</td><td>25.3</td><td>4.3</td><td>20.3</td><td>23.1</td><td>10.9</td><td>24.8</td></tr></tbody></table>`,
+      },
+      "Reducer Triple Branch Union": {
+        dim: "PKG Series.jpg",
+        eng: "Reducer Triple Branch Union",
+        thumb: "https://cdcpneumatics.com/data/product/pkg.png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D1</th><th>∅D2</th><th>∅P1</th><th>∅P2</th><th>L1</th><th>L2</th><th>E</th><th>∅C</th><th>B1</th><th>B2</th><th>J</th><th>M1</th><th>M2</th></tr></thead><tbody><tr><td>PKG0604</td><td>6</td><td>4</td><td>12.5</td><td>10.5</td><td>21.1</td><td>63.1</td><td>19.5</td><td>3.3</td><td>16.4</td><td>14.8</td><td>10.5</td><td>7.6</td><td>34.0</td></tr><tr><td>PKG0804</td><td>8</td><td>4</td><td>14.5</td><td>10.5</td><td>22.3</td><td>65.5</td><td>20.7</td><td>4.3</td><td>18.3</td><td>14.8</td><td>10.5</td><td>9.2</td><td>34.8</td></tr><tr><td>PKG0806</td><td>8</td><td>6</td><td>14.5</td><td>12.5</td><td>23.3</td><td>71.5</td><td>22.2</td><td>4.3</td><td>18.3</td><td>16.4</td><td>12.5</td><td>9.3</td><td>41.1</td></tr><tr><td>PKG1006</td><td>10</td><td>6</td><td>17.5</td><td>12.5</td><td>26.7</td><td>78.4</td><td>22.8</td><td>4.3</td><td>20.2</td><td>16.4</td><td>12.5</td><td>9.5</td><td>41.7</td></tr><tr><td>PKG1008</td><td>10</td><td>8</td><td>17.5</td><td>14.5</td><td>27.4</td><td>83.7</td><td>25.7</td><td>4.3</td><td>20.2</td><td>18.3</td><td>14.5</td><td>9.5</td><td>47.0</td></tr></tbody></table>`,
       },
       "Bulkhead Union": {
         dim: "PMM Series.jpg",
@@ -111,17 +133,138 @@ const productMap = {
         `,
         table: `<table><thead><tr><th>Model</th><th>∅D1</th><th>∅D2</th><th>∅P</th><th>T</th><th>L</th><th>E</th><th>A</th><th>B1</th><th>B2</th><th>J</th><th>H1(Hex)</th><th>H2(Hex)</th></tr></thead><tbody><tr><td>PLM04</td><td>4</td><td>4</td><td>10.5</td><td>M12*1.0p</td><td>32.5</td><td>18.5</td><td>10.5</td><td>14.8</td><td>14.8</td><td>4.0</td><td>14</td><td>14</td></tr><tr><td>PLM06</td><td>6</td><td>6</td><td>12.5</td><td>M14*1.0p</td><td>38.2</td><td>20.3</td><td>12.5</td><td>16.4</td><td>16.4</td><td>4.0</td><td>17</td><td>17</td></tr><tr><td>PLM08</td><td>8</td><td>8</td><td>14.8</td><td>M16*1.0p</td><td>40.4</td><td>22.9</td><td>13.0</td><td>18.3</td><td>18.4</td><td>5.0</td><td>19</td><td>19</td></tr><tr><td>PLM10</td><td>10</td><td>10</td><td>17.5</td><td>M20*1.0p</td><td>41.9</td><td>24.6</td><td>13.5</td><td>20.2</td><td>19.7</td><td>5.0</td><td>24</td><td>24</td></tr><tr><td>PLM12</td><td>12</td><td>12</td><td>20.5</td><td>M22*1.0p</td><td>48.1</td><td>28.7</td><td>16.5</td><td>22.9</td><td>21.9</td><td>5.0</td><td>26</td><td>26</td></tr></tbody></table>`,
       },
-      "Blank": {
-        dim: "Blank Series.jpg",
-        eng: "Blank",
-        thumb: "",
+      "Plug-In Elbow": {
+        dim: "PLJ Series.jpg",
+        eng: "Plug-In Elbow",
+        thumb: "https://cdcpneumatics.com/data/product/plj.png",
         desc: `
         <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
         <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
         <b>Working Temperature Range</b>: 32~140℉, 0~60℃
         `,
-        table: ``,
+        table: `<table><thead><tr><th>Model</th><th>∅D1</th><th>∅D2</th><th>∅P</th><th>L</th><th>E</th><th>A</th><th>B</th></tr></thead><tbody><tr><td>PLJ04</td><td>4</td><td>4</td><td>10.5</td><td>28.4</td><td>18.5</td><td>22.0</td><td>14.8</td></tr><tr><td>PLJ06</td><td>6</td><td>6</td><td>12.5</td><td>31.4</td><td>20.3</td><td>24.0</td><td>16.4</td></tr><tr><td>PLJ08</td><td>8</td><td>8</td><td>14.8</td><td>34.1</td><td>22.6</td><td>26.0</td><td>18.3</td></tr><tr><td>PLJ10</td><td>10</td><td>10</td><td>17.5</td><td>37.9</td><td>24.3</td><td>28.0</td><td>20.2</td></tr><tr><td>PLJ12</td><td>12</td><td>12</td><td>20.5</td><td>41.5</td><td>28.1</td><td>30.0</td><td>22.9</td></tr><tr><td>PLJ16</td><td>16</td><td>16</td><td>25.5</td><td>59.8</td><td>32.8</td><td>32.0</td><td>24.1</td></tr><tr><td>PLJ06-04</td><td>6</td><td>4</td><td>10.5</td><td>38.5</td><td>18.5</td><td>25.0</td><td>14.8</td></tr><tr><td>PLJ08-06</td><td>8</td><td>6</td><td>12.5</td><td>41.5</td><td>20.3</td><td>26.0</td><td>16.4</td></tr><tr><td>PLJ10-08</td><td>10</td><td>8</td><td>14.8</td><td>45.0</td><td>22.9</td><td>28.0</td><td>18.3</td></tr><tr><td>PLJ12-10</td><td>12</td><td>10</td><td>17.5</td><td>48.0</td><td>24.6</td><td>30.0</td><td>20.2</td></tr></tbody></table>`,
       },
+      "Plug-In Reducer": {
+        dim: "PGJ Series.jpg",
+        eng: "Plug-In Reducer",
+        thumb: "https://cdcpneumatics.com/data/product/pgj.png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D1</th><th>∅D2</th><th>∅P</th><th>L</th><th>A</th><th>B</th></tr></thead><tbody><tr><td>PGJ0406</td><td>4</td><td>6</td><td>12.5</td><td>40.0</td><td>21</td><td>16.4</td></tr><tr><td>PGJ0604</td><td>6</td><td>4</td><td>10.5</td><td>37.7</td><td>21.8</td><td>14.8</td></tr><tr><td>PGJ0608</td><td>6</td><td>8</td><td>14.8</td><td>43.5</td><td>22.5</td><td>18.4</td></tr><tr><td>PGJ0804</td><td>8</td><td>4</td><td>10.5</td><td>39.7</td><td>24.8</td><td>14.8</td></tr><tr><td>PGJ0806</td><td>8</td><td>6</td><td>12.5</td><td>40.0</td><td>23.8</td><td>16.4</td></tr><tr><td>PGJ1006</td><td>10</td><td>6</td><td>12.5</td><td>44.0</td><td>28.8</td><td>16.4</td></tr><tr><td>PGJ1008</td><td>10</td><td>8</td><td>14.8</td><td>46.4</td><td>27.6</td><td>18.3</td></tr><tr><td>PGJ1206</td><td>12</td><td>6</td><td>12.5</td><td>50.0</td><td>30.5</td><td>16.4</td></tr><tr><td>PGJ1208</td><td>12</td><td>8</td><td>14.8</td><td>50.4</td><td>32.6</td><td>18.3</td></tr><tr><td>PGJ1210</td><td>12</td><td>10</td><td>17.5</td><td>52.9</td><td>31.2</td><td>20.2</td></tr><tr><td>PGJ1216</td><td>12</td><td>16</td><td>25.5</td><td>58.5</td><td>33.25</td><td>24.1</td></tr><tr><td>PGJ1612</td><td>16</td><td>12</td><td>20.5</td><td>63.3</td><td>37.7</td><td>23.1</td></tr></tbody></table>`,
+      },
+      "Plug-In Reducer Double Y": {
+        dim: "PXJ Series.jpg",
+        eng: "Plug-In Reducer Double Y",
+        thumb: "https://cdcpneumatics.com/data/product/pxj.png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D1</th><th>∅D2</th><th>∅P</th><th>L</th><th>E</th><th>J</th><th>∅C</th><th>A</th><th>B</th><th>M</th></tr></thead><tbody><tr><td>PXJ0604</td><td>6</td><td>4</td><td>10.5</td><td>55.7</td><td>21.2</td><td>10.6</td><td>3.3</td><td>25.0</td><td>15.3</td><td>13.9</td></tr><tr><td>PXJ0806</td><td>8</td><td>6</td><td>12.8</td><td>58.0</td><td>25.6</td><td>12.7</td><td>3.3</td><td>26.0</td><td>16.4</td><td>15.5</td></tr></tbody></table>`,
+      },
+      "Plug-In Y": {
+        dim: "PYJ Series.jpg",
+        eng: "Plug-In Y",
+        thumb: "https://cdcpneumatics.com/data/product/pyj.png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D1</th><th>∅D2</th><th>∅P</th><th>L</th><th>J</th><th>A</th><th>B</th></tr></thead><tbody><tr><td>PYJ04</td><td>4</td><td>4</td><td>10.5</td><td>56.4</td><td>10.5</td><td>24.0</td><td>15.5</td></tr><tr><td>PYJ06</td><td>6</td><td>6</td><td>12.5</td><td>58.4</td><td>12.5</td><td>25.0</td><td>16.9</td></tr><tr><td>PYJ08</td><td>8</td><td>8</td><td>14.5</td><td>62.4</td><td>14.5</td><td>26.0</td><td>18.6</td></tr><tr><td>PYJ10</td><td>10</td><td>10</td><td>17.6</td><td>68.6</td><td>17.6</td><td>28.0</td><td>20.3</td></tr><tr><td>PYJ12</td><td>12</td><td>12</td><td>21.0</td><td>75.7</td><td>21.0</td><td>30.0</td><td>22.7</td></tr></tbody></table>`,
+      },
+      "Plug-In Reducer Y": {
+        dim: "PWJ Series.jpg",
+        eng: "Plug-In Reducer Y",
+        thumb: "https://cdcpneumatics.com/data/product/pwj.png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D1</th><th>∅D2</th><th>∅P</th><th>L</th><th>J</th><th>A</th><th>B</th></tr></thead><tbody><tr><td>PWJ06-04</td><td>6</td><td>4</td><td>10.5</td><td>57.4</td><td>10.5</td><td>25.0</td><td>15.5</td></tr><tr><td>PWJ08-06</td><td>8</td><td>6</td><td>12.5</td><td>59.4</td><td>12.5</td><td>26.0</td><td>16.9</td></tr><tr><td>PWJ10-08</td><td>10</td><td>8</td><td>14.5</td><td>64.4</td><td>14.5</td><td>28.0</td><td>18.6</td></tr><tr><td>PWJ12-10</td><td>12</td><td>10</td><td>17.6</td><td>70.8</td><td>17.6</td><td>30.0</td><td>20.3</td></tr></tbody></table>`,
+      },
+      "Plug-In Branch Tee": {
+        dim: "PTJ Series.jpg",
+        eng: "Plug-In Branch Tee",
+        thumb: "https://cdcpneumatics.com/data/product/ptj.png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D1</th><th>∅D2</th><th>∅P</th><th>L</th><th>E</th><th>A</th><th>B</th></tr></thead><tbody><tr><td>PTJ04</td><td>4</td><td>4</td><td>10.5</td><td>37.5</td><td>18.5</td><td>24.0</td><td>14.8</td></tr><tr><td>PTJ06</td><td>6</td><td>6</td><td>12.5</td><td>40.5</td><td>20.3</td><td>25.0</td><td>16.4</td></tr><tr><td>PTJ08</td><td>8</td><td>8</td><td>15.0</td><td>43.0</td><td>22.6</td><td>26.0</td><td>18.3</td></tr><tr><td>PTJ10</td><td>10</td><td>10</td><td>17.5</td><td>45.8</td><td>25.2</td><td>28.0</td><td>20.2</td></tr><tr><td>PTJ12</td><td>12</td><td>12</td><td>20.5</td><td>50.9</td><td>28.7</td><td>30.0</td><td>22.9</td></tr><tr><td>PTJ06-04</td><td>6</td><td>4</td><td>10.5</td><td>38.5</td><td>18.5</td><td>25.0</td><td>14.8</td></tr><tr><td>PTJ08-06</td><td>8</td><td>6</td><td>12.5</td><td>41.5</td><td>20.3</td><td>26.0</td><td>16.4</td></tr><tr><td>PTJ10-08</td><td>10</td><td>8</td><td>15.0</td><td>45.0</td><td>22.6</td><td>28.0</td><td>18.3</td></tr><tr><td>PTJ12-10</td><td>12</td><td>10</td><td>17.5</td><td>48.0</td><td>25.2</td><td>30.0</td><td>20.2</td></tr></tbody></table>`,
+      },
+      "Plug-In Run Tee": {
+        dim: "PSJ Series.jpg",
+        eng: "Plug-In Run Tee",
+        thumb: "https://cdcpneumatics.com/data/product/psj.png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D1</th><th>∅D2</th><th>∅P</th><th>L1</th><th>L2</th><th>E</th><th>A</th><th>B</th></tr></thead><tbody><tr><td>PSJ04</td><td>4</td><td>4</td><td>10.6</td><td>38.5</td><td>58</td><td>19.5</td><td>24.0</td><td>14.8</td></tr><tr><td>PSJ06</td><td>6</td><td>6</td><td>13.0</td><td>41.0</td><td>62.4</td><td>21.4</td><td>25.0</td><td>16.4</td></tr><tr><td>PSJ08</td><td>8</td><td>8</td><td>15.0</td><td>43.8</td><td>67.1</td><td>23.4</td><td>26.0</td><td>18.3</td></tr><tr><td>PSJ10</td><td>10</td><td>10</td><td>18.0</td><td>47.3</td><td>73.1</td><td>25.8</td><td>28.0</td><td>20.2</td></tr><tr><td>PSJ12</td><td>12</td><td>12</td><td>20.8</td><td>51.4</td><td>81.6</td><td>30.2</td><td>30.0</td><td>22.9</td></tr><tr><td>PSJ06-04</td><td>6</td><td>4</td><td>10.6</td><td>39.5</td><td>59.0</td><td>19.5</td><td>25.0</td><td>14.8</td></tr><tr><td>PSJ08-06</td><td>8</td><td>6</td><td>13.0</td><td>42.0</td><td>63.4</td><td>21.4</td><td>26.0</td><td>16.4</td></tr><tr><td>PSJ10-08</td><td>10</td><td>8</td><td>15.0</td><td>45.8</td><td>69.1</td><td>23.4</td><td>28.0</td><td>18.3</td></tr><tr><td>PSJ12-10</td><td>12</td><td>10</td><td>18.0</td><td>49.5</td><td>75.3</td><td>25.8</td><td>30.0</td><td>20.2</td></tr></tbody></table>`,
+      },
+      "Plug-In Reducer Triple Branch": {
+        dim: "PKJ Series.jpg",
+        eng: "Plug-In Reducer Triple Branch",
+        thumb: "https://cdcpneumatics.com/data/product/pkj.png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D1</th><th>∅D2</th><th>∅P1</th><th>∅P2</th><th>L1</th><th>L2</th><th>E</th><th>∅C</th><th>A</th><th>B1</th><th>B2</th><th>J</th><th>M1</th><th>M2</th></tr></thead><tbody><tr><td>PKJ0604</td><td>6</td><td>4</td><td>12.5</td><td>10.5</td><td>44.1</td><td>86.1</td><td>19.5</td><td>3.3</td><td>25.0</td><td>16.4</td><td>14.8</td><td>10.5</td><td>7.6</td><td>34.0</td></tr><tr><td>PKJ0804</td><td>8</td><td>4</td><td>14.5</td><td>10.5</td><td>45.9</td><td>89.1</td><td>20.7</td><td>4.3</td><td>26.0</td><td>18.3</td><td>14.8</td><td>10.5</td><td>9.2</td><td>34.8</td></tr><tr><td>PKJ0806</td><td>8</td><td>6</td><td>14.5</td><td>12.5</td><td>46.9</td><td>95.1</td><td>22.2</td><td>4.3</td><td>26.0</td><td>18.3</td><td>16.4</td><td>12.5</td><td>9.3</td><td>41.1</td></tr><tr><td>PKJ1006</td><td>10</td><td>6</td><td>17.5</td><td>12.5</td><td>52.2</td><td>103.9</td><td>22.8</td><td>4.3</td><td>28.0</td><td>20.2</td><td>16.4</td><td>12.5</td><td>9.5</td><td>41.7</td></tr><tr><td>PKJ1008</td><td>10</td><td>8</td><td>17.5</td><td>14.5</td><td>52.8</td><td>109.2</td><td>25.7</td><td>4.3</td><td>28.0</td><td>20.2</td><td>18.3</td><td>14.5</td><td>9.5</td><td>47.0</td></tr></tbody></table>`,
+      },
+      "Tube Splicer": {
+        dim: "PIJ Series.jpg",
+        eng: "Tube Splicer",
+        thumb: "https://cdcpneumatics.com/data/product/pij.png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D</th><th>L</th><th>ORIFICE</th></tr></thead><tbody><tr><td>PIJ04</td><td>4</td><td>36.0</td><td>2.5</td></tr><tr><td>PIJ06</td><td>6</td><td>38.0</td><td>3.5</td></tr><tr><td>PIJ08</td><td>8</td><td>40.0</td><td>5.0</td></tr><tr><td>PIJ10</td><td>10</td><td>45.0</td><td>7.0</td></tr><tr><td>PIJ12</td><td>12</td><td>48.0</td><td>8.5</td></tr><tr><td>PIJ14</td><td>14</td><td>52.0</td><td>10.0</td></tr><tr><td>PIJ16</td><td>16</td><td>53.0</td><td>12.0</td></tr></tbody></table>`,
+      },
+      "Reducer Tube Splicer": {
+        dim: "PIG Series.jpg",
+        eng: "Reducer Tube Splicer",
+        thumb: "https://cdcpneumatics.com/data/product/pig.png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D1</th><th>∅D2</th><th>L</th><th>A</th><th>B</th><th>ORIFICE</th></tr></thead><tbody><tr><td>PIG0604</td><td>6</td><td>4</td><td>38.0</td><td>19.0</td><td>19</td><td>2.0</td></tr><tr><td>PIG0804</td><td>8</td><td>4</td><td>40.0</td><td>21.0</td><td>19.0</td><td>2.0</td></tr><tr><td>PIG0806</td><td>8</td><td>6</td><td>41.0</td><td>20.0</td><td>20.0</td><td>3.5</td></tr><tr><td>PIG1006</td><td>10</td><td>6</td><td>42.0</td><td>22.0</td><td>20.0</td><td>3.5</td></tr><tr><td>PIG1008</td><td>10</td><td>8</td><td>44.0</td><td>22.0</td><td>22.0</td><td>5.0</td></tr><tr><td>PIG1208</td><td>12</td><td>8</td><td>46.0</td><td>24.0</td><td>22.0</td><td>5.0</td></tr><tr><td>PIG1210</td><td>12</td><td>10</td><td>47.0</td><td>24.0</td><td>23.0</td><td>6.8</td></tr><tr><td>PIG1612</td><td>16</td><td>12</td><td>52.0</td><td>27.0</td><td>25.0</td><td>8.5</td></tr></tbody></table>`,
+      },
+      "Cap": {
+        dim: "PPF Series.jpg",
+        eng: "Cap",
+        thumb: "https://cdcpneumatics.com/data/product/ppf.png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D</th><th>∅P</th><th>L</th><th>B</th></tr></thead><tbody><tr><td>PPF04</td><td>4</td><td>10.5</td><td>18.7</td><td>15.3</td></tr><tr><td>PPF06</td><td>6</td><td>12.5</td><td>20.0</td><td>16.4</td></tr><tr><td>PPF08</td><td>8</td><td>14.5</td><td>21.4</td><td>18.3</td></tr><tr><td>PPF10</td><td>10</td><td>17.5</td><td>22.9</td><td>20.2</td></tr><tr><td>PPF12</td><td>12</td><td>20.5</td><td>25.1</td><td>22.9</td></tr><tr><td>PPF16</td><td>16</td><td>25.5</td><td>27.8</td><td>24.1</td></tr></tbody></table>`,
+      },
+      "Coupler Plug": {
+        dim: "PCP Series.jpg",
+        eng: "Coupler Plug",
+        thumb: "https://cdcpneumatics.com/data/product/pcp.png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D</th><th>∅P</th><th>￠A</th><th>L</th><th>E</th><th>B</th></tr></thead><tbody><tr><td>PCP 04</td><td>4</td><td>10.0</td><td>10.9</td><td>31.0</td><td>16.3</td><td>14.8</td></tr><tr><td>PCP 06</td><td>6</td><td>11.9</td><td>10.9</td><td>31.7</td><td>16.3</td><td>17.4</td></tr><tr><td>PCP 08</td><td>8</td><td>14.0</td><td>10.9</td><td>34.9</td><td>16.3</td><td>18.4</td></tr><tr><td>PCP 10</td><td>10</td><td>16.0</td><td>10.9</td><td>42.4</td><td>16.3</td><td>19.7</td></tr><tr><td>PCP 12</td><td>12</td><td>19.0</td><td>10.9</td><td>45.4</td><td>16.3</td><td>21.9</td></tr><tr><td>PCP 16</td><td>16</td><td>24.0</td><td>10.9</td><td>49.3</td><td>16.3</td><td>24.5</td></tr></tbody></table>`,
+      }, 
     },
     "Tube Metric - Thread R (or Rc)": {
       "Male Straight": {
@@ -157,17 +300,6 @@ const productMap = {
         `,
         table: `<table><thead><tr><th>Model</th><th>∅D</th><th>∅P</th><th>T</th><th>L</th><th>A</th><th>B</th><th>H(Hex)</th></tr></thead><tbody><tr><td>POC04-M5</td><td>4</td><td>10.0</td><td>M5*0.8p</td><td>20.9</td><td>4</td><td>14.8</td><td>2</td></tr><tr><td>POC04-M6</td><td>4</td><td>10.0</td><td>M6*1.0p</td><td>21.3</td><td>4.6</td><td>14.8</td><td>3</td></tr><tr><td>POC04-01</td><td>4</td><td>10.0</td><td>R 1/8</td><td>20.8</td><td>8.0</td><td>14.8</td><td>3</td></tr><tr><td>POC04-02</td><td>4</td><td>14.0</td><td>R 1/4</td><td>20.8</td><td>10.0</td><td>14.8</td><td>3</td></tr><tr><td>POC04-03</td><td>4</td><td>17.0</td><td>R 3/8</td><td>20.8</td><td>11.0</td><td>14.8</td><td>3</td></tr><tr><td>POC06-M5</td><td>6</td><td>12.0</td><td>M5*0.8p</td><td>23.1</td><td>4.0</td><td>16.4</td><td>2</td></tr><tr><td>POC06-M6</td><td>6</td><td>12.0</td><td>M6*1.0p</td><td>23.5</td><td>4.6</td><td>16.4</td><td>3</td></tr><tr><td>POC06-01</td><td>6</td><td>12.0</td><td>R 1/8</td><td>22.7</td><td>8.0</td><td>16.4</td><td>4</td></tr><tr><td>POC06-02</td><td>6</td><td>14.0</td><td>R 1/4</td><td>23.4</td><td>10.0</td><td>16.4</td><td>4</td></tr><tr><td>POC06-03</td><td>6</td><td>17.0</td><td>R 3/8</td><td>23.4</td><td>11.0</td><td>16.4</td><td>4</td></tr><tr><td>POC08-01</td><td>8</td><td>14.0</td><td>R 1/8</td><td>27.9</td><td>8.0</td><td>18.4</td><td>5</td></tr><tr><td>POC08-02</td><td>8</td><td>14.0</td><td>R 1/4</td><td>25.9</td><td>10.0</td><td>18.4</td><td>6</td></tr><tr><td>POC08-03</td><td>8</td><td>17.0</td><td>R 3/8</td><td>25.9</td><td>11.0</td><td>18.4</td><td>6</td></tr><tr><td>POC08-04</td><td>8</td><td>21.0</td><td>R 1/2</td><td>27.3</td><td>14.0</td><td>18.4</td><td>6</td></tr><tr><td>POC10-01</td><td>10</td><td>17.0</td><td>R 1/8</td><td>29.9</td><td>8.0</td><td>19.7</td><td>5</td></tr><tr><td>POC10-02</td><td>10</td><td>17.0</td><td>R 1/4</td><td>27.8</td><td>10.0</td><td>19.7</td><td>6</td></tr><tr><td>POC10-03</td><td>10</td><td>17.0</td><td>R 3/8</td><td>27.8</td><td>11.0</td><td>19.7</td><td>8</td></tr><tr><td>POC10-04</td><td>10</td><td>21.0</td><td>R 1/2</td><td>27.8</td><td>14.0</td><td>19.7</td><td>8</td></tr><tr><td>POC12-01</td><td>12</td><td>19.0</td><td>R 1/8</td><td>32.2</td><td>8.0</td><td>21.9</td><td>5</td></tr><tr><td>POC12-02</td><td>12</td><td>19.0</td><td>R 1/4</td><td>33.8</td><td>10.0</td><td>21.9</td><td>6</td></tr><tr><td>POC12-03</td><td>12</td><td>19.0</td><td>R 3/8</td><td>31.7</td><td>11.0</td><td>21.9</td><td>8</td></tr><tr><td>POC12-04</td><td>12</td><td>21.0</td><td>R 1/2</td><td>30.2</td><td>14.0</td><td>21.9</td><td>8</td></tr></tbody></table>`,
       },
-      "Coupler Plug": {
-        dim: "PCP Series.jpg",
-        eng: "Coupler Plug",
-        thumb: "https://cdcpneumatics.com/data/product/pcp.png",
-        desc: `
-        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
-        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
-        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
-        `,
-        table: `<table><thead><tr><th>Model</th><th>∅D</th><th>∅P</th><th>￠A</th><th>L</th><th>E</th><th>B</th></tr></thead><tbody><tr><td>PCP 04</td><td>4</td><td>10.0</td><td>10.9</td><td>31.0</td><td>16.3</td><td>14.8</td></tr><tr><td>PCP 06</td><td>6</td><td>11.9</td><td>10.9</td><td>31.7</td><td>16.3</td><td>17.4</td></tr><tr><td>PCP 08</td><td>8</td><td>14.0</td><td>10.9</td><td>34.9</td><td>16.3</td><td>18.4</td></tr><tr><td>PCP 10</td><td>10</td><td>16.0</td><td>10.9</td><td>42.4</td><td>16.3</td><td>19.7</td></tr><tr><td>PCP 12</td><td>12</td><td>19.0</td><td>10.9</td><td>45.4</td><td>16.3</td><td>21.9</td></tr><tr><td>PCP 16</td><td>16</td><td>24.0</td><td>10.9</td><td>49.3</td><td>16.3</td><td>24.5</td></tr></tbody></table>`,
-      }, 
       "Bulkhead Female Straight": {
         dim: "PMF Series.jpg",
         eng: "Bulkhead Female Straight",
@@ -321,6 +453,61 @@ const productMap = {
         <b>Working Temperature Range</b>: 32~140℉, 0~60℃
         `,
         table: `<table><thead><tr><th>Model</th><th>∅D</th><th>∅P</th><th>T</th><th>L</th><th>E</th><th>J</th><th>∅C</th><th>A</th><th>B</th><th>M</th><th>H(Hex)</th></tr></thead><tbody><tr><td>PXT04-01</td><td>4</td><td>10.5</td><td>R 1/8</td><td>41.7</td><td>21.2</td><td>10.6</td><td>3.3</td><td>8.0</td><td>15.3</td><td>13.9</td><td>10</td></tr><tr><td>PXT04-02</td><td>4</td><td>10.5</td><td>R 1/4</td><td>44.7</td><td>21.2</td><td>10.6</td><td>3.3</td><td>10.0</td><td>15.3</td><td>13.9</td><td>14</td></tr><tr><td>PXT06-01</td><td>6</td><td>12.8</td><td>R 1/8</td><td>43.0</td><td>25.6</td><td>12.7</td><td>3.3</td><td>8.0</td><td>16.4</td><td>15.5</td><td>12</td></tr><tr><td>PXT06-02</td><td>6</td><td>12.8</td><td>R 1/4</td><td>46.0</td><td>25.6</td><td>12.7</td><td>3.3</td><td>10.0</td><td>16.4</td><td>15.5</td><td>14</td></tr></tbody></table>`,
+      },
+      "Double Universal Elbow": {
+        dim: "PHL(2) Series.jpg",
+        eng: "Double Universal Elbow",
+        thumb: "https://cdcpneumatics.com/data/product/phl(2).png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D</th><th>∅P</th><th>T</th><th>L1</th><th>L2</th><th>E</th><th>A</th><th>B</th><th>J</th><th>H(Hex)</th></tr></thead><tbody><tr><td>PHL04-01(2)</td><td>4</td><td>10.5</td><td>R 1/8</td><td>22.5</td><td>51.8</td><td>23.3</td><td>8.0</td><td>14.8</td><td>17.9</td><td>14</td></tr><tr><td>PHL04-02(2)</td><td>4</td><td>10.5</td><td>R 1/4</td><td>27.5</td><td>62.8</td><td>25.1</td><td>10.0</td><td>14.8</td><td>21.9</td><td>17</td></tr><tr><td>PHL04-03(2)</td><td>4</td><td>10.5</td><td>R 3/8</td><td>29.0</td><td>64.8</td><td>27.0</td><td>11.0</td><td>14.8</td><td>21.9</td><td>21</td></tr><tr><td>PHL04-04(2)</td><td>4</td><td>10.5</td><td>R 1/2</td><td>34.1</td><td>73.4</td><td>29.0</td><td>14.0</td><td>14.8</td><td>23.9</td><td>24</td></tr><tr><td>PHL06-01(2)</td><td>6</td><td>12.5</td><td>R 1/8</td><td>22.5</td><td>51.8</td><td>24.1</td><td>8.0</td><td>16.4</td><td>17.9</td><td>14</td></tr><tr><td>PHL06-02(2)</td><td>6</td><td>12.5</td><td>R 1/4</td><td>27.5</td><td>62.8</td><td>26.0</td><td>10.0</td><td>16.4</td><td>21.9</td><td>17</td></tr><tr><td>PHL06-03(2)</td><td>6</td><td>12.5</td><td>R 3/8</td><td>29.0</td><td>64.8</td><td>27.9</td><td>11.0</td><td>16.4</td><td>21.9</td><td>21</td></tr><tr><td>PHL06-04(2)</td><td>6</td><td>12.5</td><td>R 1/2</td><td>34.1</td><td>73.4</td><td>29.3</td><td>14.0</td><td>16.4</td><td>23.9</td><td>24</td></tr><tr><td>PHL08-01(2)</td><td>8</td><td>14.5</td><td>R 1/8</td><td>22.5</td><td>51.8</td><td>25.6</td><td>8.0</td><td>18.3</td><td>17.9</td><td>14</td></tr><tr><td>PHL08-02(2)</td><td>8</td><td>14.5</td><td>R 1/4</td><td>27.5</td><td>62.8</td><td>27.4</td><td>10.0</td><td>18.3</td><td>21.9</td><td>17</td></tr><tr><td>PHL08-03(2)</td><td>8</td><td>14.5</td><td>R 3/8</td><td>29.0</td><td>64.8</td><td>29.3</td><td>11.0</td><td>18.3</td><td>21.9</td><td>21</td></tr><tr><td>PHL08-04(2)</td><td>8</td><td>14.5</td><td>R 1/2</td><td>34.1</td><td>73.4</td><td>30.7</td><td>14.0</td><td>18.3</td><td>23.9</td><td>24</td></tr><tr><td>PHL10-01(2)</td><td>10</td><td>17.5</td><td>R 1/8</td><td>22.5</td><td>51.8</td><td>28.1</td><td>8.0</td><td>20.2</td><td>17.9</td><td>14</td></tr><tr><td>PHL10-02(2)</td><td>10</td><td>17.5</td><td>R 1/4</td><td>27.5</td><td>62.8</td><td>29.8</td><td>10.0</td><td>20.2</td><td>21.9</td><td>17</td></tr><tr><td>PHL10-03(2)</td><td>10</td><td>17.5</td><td>R 3/8</td><td>29.0</td><td>64.8</td><td>31.9</td><td>11.0</td><td>20.2</td><td>21.9</td><td>21</td></tr><tr><td>PHL10-04(2)</td><td>10</td><td>17.5</td><td>R 1/2</td><td>34.1</td><td>73.4</td><td>33.7</td><td>14.0</td><td>20.2</td><td>23.9</td><td>24</td></tr><tr><td>PHL12-02(2)</td><td>12</td><td>20.5</td><td>R 1/4</td><td>27.5</td><td>62.8</td><td>33.0</td><td>10.0</td><td>22.9</td><td>21.9</td><td>17</td></tr><tr><td>PHL12-03(2)</td><td>12</td><td>20.5</td><td>R 3/8</td><td>29.0</td><td>64.8</td><td>35.1</td><td>11.0</td><td>22.9</td><td>21.9</td><td>21</td></tr><tr><td>PHL12-04(2)</td><td>12</td><td>20.5</td><td>R 1/2</td><td>34.1</td><td>73.4</td><td>37.4</td><td>14.0</td><td>22.9</td><td>23.9</td><td>24</td></tr></tbody></table>`,
+      },
+      "Single Universal Tee": {
+        dim: "PHT(1) Series.jpg",
+        eng: "Single Universal Tee",
+        thumb: "https://cdcpneumatics.com/data/product/pht(1).png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D</th><th>∅P</th><th>T</th><th>L1</th><th>L2</th><th>E</th><th>A</th><th>B</th><th>H(Hex)</th></tr></thead><tbody><tr><td>PHT04-01(1)</td><td>4</td><td>10.5</td><td>R 1/8</td><td>22.5</td><td>33.9</td><td>23.3</td><td>8.0</td><td>14.8</td><td>14</td></tr><tr><td>PHT04-02(1)</td><td>4</td><td>10.5</td><td>R 1/4</td><td>27.5</td><td>40.9</td><td>25.1</td><td>10.0</td><td>14.8</td><td>17</td></tr><tr><td>PHT04-03(1)</td><td>4</td><td>10.5</td><td>R 3/8</td><td>29.0</td><td>42.9</td><td>27.0</td><td>11.0</td><td>14.8</td><td>21</td></tr><tr><td>PHT04-04(1)</td><td>4</td><td>10.5</td><td>R 1/2</td><td>34.1</td><td>49.6</td><td>29.0</td><td>14.0</td><td>14.8</td><td>24</td></tr><tr><td>PHT06-01(1)</td><td>6</td><td>12.5</td><td>R 1/8</td><td>22.5</td><td>33.9</td><td>24.1</td><td>8.0</td><td>16.4</td><td>14</td></tr><tr><td>PHT06-02(1)</td><td>6</td><td>12.5</td><td>R 1/4</td><td>27.5</td><td>40.9</td><td>26.0</td><td>10.0</td><td>16.4</td><td>17</td></tr><tr><td>PHT06-03(1)</td><td>6</td><td>12.5</td><td>R 3/8</td><td>29.0</td><td>42.9</td><td>27.9</td><td>11.0</td><td>16.4</td><td>21</td></tr><tr><td>PHT06-04(1)</td><td>6</td><td>12.5</td><td>R 1/2</td><td>34.1</td><td>49.6</td><td>29.3</td><td>14.0</td><td>16.4</td><td>24</td></tr><tr><td>PHT08-01(1)</td><td>8</td><td>14.5</td><td>R 1/8</td><td>22.5</td><td>33.9</td><td>25.6</td><td>8.0</td><td>18.3</td><td>14</td></tr><tr><td>PHT08-02(1)</td><td>8</td><td>14.5</td><td>R 1/4</td><td>27.5</td><td>40.9</td><td>27.4</td><td>10.0</td><td>18.3</td><td>17</td></tr><tr><td>PHT08-03(1)</td><td>8</td><td>14.5</td><td>R 3/8</td><td>29.0</td><td>42.9</td><td>29.3</td><td>11.0</td><td>18.3</td><td>21</td></tr><tr><td>PHT08-04(1)</td><td>8</td><td>14.5</td><td>R 1/2</td><td>34.1</td><td>49.6</td><td>30.7</td><td>14.0</td><td>18.3</td><td>24</td></tr><tr><td>PHT10-01(1)</td><td>10</td><td>17.5</td><td>R 1/8</td><td>22.5</td><td>33.9</td><td>28.1</td><td>8.0</td><td>20.2</td><td>14</td></tr><tr><td>PHT10-02(1)</td><td>10</td><td>17.5</td><td>R 1/4</td><td>27.5</td><td>40.9</td><td>29.8</td><td>10.0</td><td>20.2</td><td>17</td></tr><tr><td>PHT10-03(1)</td><td>10</td><td>17.5</td><td>R 3/8</td><td>29.0</td><td>42.9</td><td>31.9</td><td>11.0</td><td>20.2</td><td>21</td></tr><tr><td>PHT10-04(1)</td><td>10</td><td>17.5</td><td>R 1/2</td><td>34.1</td><td>49.6</td><td>33.7</td><td>14.0</td><td>20.2</td><td>24</td></tr><tr><td>PHT12-02(1)</td><td>12</td><td>20.5</td><td>R 1/4</td><td>27.5</td><td>40.9</td><td>33.0</td><td>10.0</td><td>22.9</td><td>17</td></tr><tr><td>PHT12-03(1)</td><td>12</td><td>20.5</td><td>R 3/8</td><td>29.0</td><td>42.9</td><td>35.1</td><td>11.0</td><td>22.9</td><td>21</td></tr><tr><td>PHT12-04(1)</td><td>12</td><td>20.5</td><td>R 1/2</td><td>34.1</td><td>49.6</td><td>37.4</td><td>14.0</td><td>22.9</td><td>24</td></tr></tbody></table>`,
+      },
+      "Double Universal Tee": {
+        dim: "PHT(2) Series.jpg",
+        eng: "Double Universal Tee",
+        thumb: "https://cdcpneumatics.com/data/product/pht(2).png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D</th><th>∅P</th><th>T</th><th>L1</th><th>L2</th><th>E</th><th>A</th><th>B</th><th>J</th><th>H(Hex)</th></tr></thead><tbody><tr><td>PHT04-01(2)</td><td>4</td><td>10.5</td><td>R 1/8</td><td>22.5</td><td>51.8</td><td>23.3</td><td>8.0</td><td>14.8</td><td>17.9</td><td>14</td></tr><tr><td>PHT04-02(2)</td><td>4</td><td>10.5</td><td>R 1/4</td><td>27.5</td><td>62.8</td><td>25.1</td><td>10.0</td><td>14.8</td><td>21.9</td><td>17</td></tr><tr><td>PHT04-03(2)</td><td>4</td><td>10.5</td><td>R 3/8</td><td>29.0</td><td>64.8</td><td>27.0</td><td>11.0</td><td>14.8</td><td>21.9</td><td>21</td></tr><tr><td>PHT04-04(2)</td><td>4</td><td>10.5</td><td>R 1/2</td><td>34.1</td><td>73.4</td><td>29.0</td><td>14.0</td><td>14.8</td><td>23.9</td><td>24</td></tr><tr><td>PHT06-01(2)</td><td>6</td><td>12.5</td><td>R 1/8</td><td>22.5</td><td>51.8</td><td>24.1</td><td>8.0</td><td>16.4</td><td>17.9</td><td>14</td></tr><tr><td>PHT06-02(2)</td><td>6</td><td>12.5</td><td>R 1/4</td><td>27.5</td><td>62.8</td><td>26.0</td><td>10.0</td><td>16.4</td><td>21.9</td><td>17</td></tr><tr><td>PHT06-03(2)</td><td>6</td><td>12.5</td><td>R 3/8</td><td>29.0</td><td>64.8</td><td>27.9</td><td>11.0</td><td>16.4</td><td>21.9</td><td>21</td></tr><tr><td>PHT06-04(2)</td><td>6</td><td>12.5</td><td>R 1/2</td><td>34.1</td><td>73.4</td><td>29.3</td><td>14.0</td><td>16.4</td><td>23.9</td><td>24</td></tr><tr><td>PHT08-01(2)</td><td>8</td><td>14.5</td><td>R 1/8</td><td>22.5</td><td>51.8</td><td>25.6</td><td>8.0</td><td>18.3</td><td>17.9</td><td>14</td></tr><tr><td>PHT08-02(2)</td><td>8</td><td>14.5</td><td>R 1/4</td><td>27.5</td><td>62.8</td><td>27.4</td><td>10.0</td><td>18.3</td><td>21.9</td><td>17</td></tr><tr><td>PHT08-03(2)</td><td>8</td><td>14.5</td><td>R 3/8</td><td>29.0</td><td>64.8</td><td>29.3</td><td>11.0</td><td>18.3</td><td>21.9</td><td>21</td></tr><tr><td>PHT08-04(2)</td><td>8</td><td>14.5</td><td>R 1/2</td><td>34.1</td><td>73.4</td><td>30.7</td><td>14.0</td><td>18.3</td><td>23.9</td><td>24</td></tr><tr><td>PHT10-01(2)</td><td>10</td><td>17.5</td><td>R 1/8</td><td>22.5</td><td>51.8</td><td>28.1</td><td>8.0</td><td>20.2</td><td>17.9</td><td>14</td></tr><tr><td>PHT10-02(2)</td><td>10</td><td>17.5</td><td>R 1/4</td><td>27.5</td><td>62.8</td><td>29.8</td><td>10.0</td><td>20.2</td><td>21.9</td><td>17</td></tr><tr><td>PHT10-03(2)</td><td>10</td><td>17.5</td><td>R 3/8</td><td>29.0</td><td>64.8</td><td>31.9</td><td>11.0</td><td>20.2</td><td>21.9</td><td>21</td></tr><tr><td>PHT10-04(2)</td><td>10</td><td>17.5</td><td>R 1/2</td><td>34.1</td><td>73.4</td><td>33.7</td><td>14.0</td><td>20.2</td><td>23.9</td><td>24</td></tr><tr><td>PHT12-02(2)</td><td>12</td><td>20.5</td><td>R 1/4</td><td>27.5</td><td>62.8</td><td>33.0</td><td>10.0</td><td>22.9</td><td>21.9</td><td>17</td></tr><tr><td>PHT12-03(2)</td><td>12</td><td>20.5</td><td>R 3/8</td><td>29.0</td><td>64.8</td><td>35.1</td><td>11.0</td><td>22.9</td><td>21.9</td><td>21</td></tr><tr><td>PHT12-04(2)</td><td>12</td><td>20.5</td><td>R 1/2</td><td>34.1</td><td>73.4</td><td>37.4</td><td>14.0</td><td>22.9</td><td>23.9</td><td>24</td></tr></tbody></table>`,
+      },
+      "Branch A": {
+        dim: "PA Series.jpg",
+        eng: "Branch A",
+        thumb: "https://cdcpneumatics.com/data/product/pa.png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D</th><th>∅P</th><th>T</th><th>L1</th><th>L2</th><th>J</th><th>E1</th><th>E2</th><th>A</th><th>B</th><th>H(Hex)</th></tr></thead><tbody><tr><td>PA04-M5</td><td>4</td><td>10.3</td><td>M5*0.8p</td><td>10.3</td><td>18.2</td><td>10.3</td><td>19.4</td><td>5.0</td><td>3.6</td><td>14.8</td><td>8</td></tr><tr><td>PA06-01</td><td>6</td><td>12.5</td><td>R 1/8</td><td>14.9</td><td>25.5</td><td>12.5</td><td>23.1</td><td>7.0</td><td>7.5</td><td>16.4</td><td>11</td></tr><tr><td>PA06-02</td><td>6</td><td>12.5</td><td>R1/4</td><td>17.4</td><td>28.8</td><td>12.5</td><td>25.1</td><td>9.0</td><td>10.0</td><td>16.4</td><td>15</td></tr><tr><td>PA08-02</td><td>8</td><td>14.8</td><td>R 1/4</td><td>18.3</td><td>28.8</td><td>14.8</td><td>27.9</td><td>9.0</td><td>10.0</td><td>18.3</td><td>15</td></tr><tr><td>PA10-02</td><td>10</td><td>17.5</td><td>R 1/4</td><td>19.7</td><td>28.8</td><td>17.5</td><td>30.9</td><td>9.0</td><td>10.0</td><td>20.2</td><td>15</td></tr><tr><td>PA10-03</td><td>10</td><td>17.5</td><td>R 3/8</td><td>20.6</td><td>32.7</td><td>17.5</td><td>30.9</td><td>11.3</td><td>11.0</td><td>20.2</td><td>19</td></tr><tr><td>PA12-03</td><td>12</td><td>20.5</td><td>R 3/8</td><td>22.1</td><td>32.7</td><td>20.5</td><td>35.8</td><td>11.3</td><td>11.0</td><td>22.4</td><td>19</td></tr><tr><td>PA12-04</td><td>12</td><td>20.5</td><td>R 1/2</td><td>25.2</td><td>38.7</td><td>20.5</td><td>36.3</td><td>14.0</td><td>14.0</td><td>22.4</td><td>24</td></tr></tbody></table>`,
+      },
+      "Female Branch A": {
+        dim: "PAF Series.jpg",
+        eng: "Female Branch A",
+        thumb: "https://cdcpneumatics.com/data/product/paf.png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D</th><th>∅P</th><th>T1</th><th>T2</th><th>L1</th><th>L2</th><th>J</th><th>E1</th><th>E2</th><th>A1</th><th>A2</th><th>B</th><th>H(Hex)</th></tr></thead><tbody><tr><td>PAF04-M5</td><td>4</td><td>10.3</td><td>M5*0.8p</td><td>M5*0.8p</td><td>10.3</td><td>20.0</td><td>10.3</td><td>19.4</td><td>5.0</td><td>3.6</td><td>6.0</td><td>14.8</td><td>8</td></tr><tr><td>PAF06-01</td><td>6</td><td>12.5</td><td>R 1/8</td><td>Rc 1/8</td><td>14.9</td><td>30.7</td><td>12.5</td><td>23.1</td><td>7.0</td><td>8.0</td><td>9.0</td><td>16.4</td><td>14</td></tr><tr><td>PAF08-02</td><td>8</td><td>14.8</td><td>R 1/4</td><td>Rc 1/4</td><td>18.3</td><td>35.5</td><td>14.8</td><td>27.9</td><td>9.0</td><td>10.0</td><td>11.0</td><td>18.3</td><td>17</td></tr><tr><td>PAF10-02</td><td>10</td><td>17.5</td><td>R 1/4</td><td>Rc 1/4</td><td>19.7</td><td>35.5</td><td>17.5</td><td>30.9</td><td>9.0</td><td>10.0</td><td>11.0</td><td>20.2</td><td>17</td></tr><tr><td>PAF10-03</td><td>10</td><td>17.5</td><td>R 3/8</td><td>Rc 3/8</td><td>20.6</td><td>41.2</td><td>17.5</td><td>30.9</td><td>11.3</td><td>11.0</td><td>13.0</td><td>20.2</td><td>21</td></tr><tr><td>PAF12-03</td><td>12</td><td>20.5</td><td>R 3/8</td><td>Rc 3/8</td><td>22.1</td><td>41.2</td><td>20.5</td><td>35.8</td><td>11.3</td><td>11.0</td><td>13.0</td><td>22.4</td><td>21</td></tr><tr><td>PAF12-04</td><td>12</td><td>20.5</td><td>R 1/2</td><td>Rc 1/2</td><td>25.2</td><td>49.5</td><td>20.5</td><td>36.3</td><td>14.0</td><td>14.0</td><td>15.0</td><td>22.4</td><td>24</td></tr></tbody></table>`,
       },
     },
     "Tube Metric - Thread M": {
@@ -546,8 +733,113 @@ const productMap = {
         `,
         table: `<table><thead><tr><th>Model</th><th>∅D</th><th>∅P</th><th>T</th><th>L</th><th>E</th><th>J</th><th>∅C</th><th>A</th><th>B</th><th>H(Hex)</th></tr></thead><tbody><tr><td>PXT04-G01</td><td>4</td><td>10.5</td><td>G 1/8</td><td>38.7</td><td>21.2</td><td>10.6</td><td>3.3</td><td>5.0</td><td>15.3</td><td>14</td></tr><tr><td>PXT04-G02</td><td>4</td><td>10.5</td><td>G 1/4</td><td>40.7</td><td>21.2</td><td>10.6</td><td>3.3</td><td>6.5</td><td>15.3</td><td>17</td></tr><tr><td>PXT06-G01</td><td>6</td><td>12.8</td><td>G 1/8</td><td>40.0</td><td>25.6</td><td>12.7</td><td>3.3</td><td>5.0</td><td>16.4</td><td>14</td></tr><tr><td>PXT06-G02</td><td>6</td><td>12.8</td><td>G 1/4</td><td>42.0</td><td>25.6</td><td>12.7</td><td>3.3</td><td>6.5</td><td>16.4</td><td>17</td></tr></tbody></table>`,
       },
+      "Double Universal Elbow": {
+        dim: "PHL-G(2) Series.jpg",
+        eng: "Double Universal Elbow",
+        thumb: "https://cdcpneumatics.com/data/product/1680846611_image1.jpg",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D</th><th>∅P</th><th>T</th><th>L1</th><th>L2</th><th>E</th><th>A</th><th>B</th><th>J</th><th>H(Hex)</th></tr></thead><tbody><tr><td>PHL04-G01(2)</td><td>4</td><td>10.5</td><td>G 1/8</td><td>20.5</td><td>49.8</td><td>23.3</td><td>5.0</td><td>14.8</td><td>17.9</td><td>14</td></tr><tr><td>PHL04-G02(2)</td><td>4</td><td>10.5</td><td>G 1/4</td><td>25.5</td><td>60.8</td><td>25.1</td><td>6.5</td><td>14.8</td><td>21.9</td><td>17</td></tr><tr><td>PHL04-G03(2)</td><td>4</td><td>10.5</td><td>G 3/8</td><td>26.0</td><td>61.8</td><td>27.0</td><td>6.5</td><td>14.8</td><td>21.9</td><td>21</td></tr><tr><td>PHL04-G04(2)</td><td>4</td><td>10.5</td><td>G 1/2</td><td>29.6</td><td>68.9</td><td>29.0</td><td>8.0</td><td>14.8</td><td>23.9</td><td>24</td></tr><tr><td>PHL06-G01(2)</td><td>6</td><td>12.5</td><td>G 1/8</td><td>20.5</td><td>49.8</td><td>24.1</td><td>5.0</td><td>16.4</td><td>17.9</td><td>14</td></tr><tr><td>PHL06-G02(2)</td><td>6</td><td>12.5</td><td>G 1/4</td><td>25.5</td><td>60.8</td><td>26.0</td><td>6.5</td><td>16.4</td><td>21.9</td><td>17</td></tr><tr><td>PHL06-G03(2)</td><td>6</td><td>12.5</td><td>G 3/8</td><td>26.0</td><td>61.8</td><td>27.9</td><td>6.5</td><td>16.4</td><td>21.9</td><td>21</td></tr><tr><td>PHL06-G04(2)</td><td>6</td><td>12.5</td><td>G 1/2</td><td>29.6</td><td>68.9</td><td>29.3</td><td>8.0</td><td>16.4</td><td>23.9</td><td>24</td></tr><tr><td>PHL08-G01(2)</td><td>8</td><td>14.5</td><td>G 1/8</td><td>20.5</td><td>49.8</td><td>25.6</td><td>5.0</td><td>18.3</td><td>17.9</td><td>14</td></tr><tr><td>PHL08-G02(2)</td><td>8</td><td>14.5</td><td>G 1/4</td><td>25.5</td><td>60.8</td><td>27.4</td><td>6.5</td><td>18.3</td><td>21.9</td><td>17</td></tr><tr><td>PHL08-G03(2)</td><td>8</td><td>14.5</td><td>G 3/8</td><td>26.0</td><td>61.8</td><td>29.3</td><td>6.5</td><td>18.3</td><td>21.9</td><td>21</td></tr><tr><td>PHL08-G04(2)</td><td>8</td><td>14.5</td><td>G 1/2</td><td>29.6</td><td>68.9</td><td>30.7</td><td>8.0</td><td>18.3</td><td>23.9</td><td>24</td></tr><tr><td>PHL10-G01(2)</td><td>10</td><td>17.5</td><td>G 1/8</td><td>20.5</td><td>49.8</td><td>28.1</td><td>5.0</td><td>20.2</td><td>17.9</td><td>14</td></tr><tr><td>PHL10-G02(2)</td><td>10</td><td>17.5</td><td>G 1/4</td><td>25.5</td><td>60.8</td><td>29.8</td><td>6.5</td><td>20.2</td><td>21.9</td><td>17</td></tr><tr><td>PHL10-G03(2)</td><td>10</td><td>17.5</td><td>G 3/8</td><td>26.0</td><td>61.8</td><td>31.9</td><td>6.5</td><td>20.2</td><td>21.9</td><td>21</td></tr><tr><td>PHL10-G04(2)</td><td>10</td><td>17.5</td><td>G 1/2</td><td>29.6</td><td>68.9</td><td>33.7</td><td>8.0</td><td>20.2</td><td>23.9</td><td>24</td></tr><tr><td>PHL12-G02(2)</td><td>12</td><td>20.5</td><td>G 1/4</td><td>25.5</td><td>60.8</td><td>33.0</td><td>6.5</td><td>22.9</td><td>21.9</td><td>17</td></tr><tr><td>PHL12-G03(2)</td><td>12</td><td>20.5</td><td>G 3/8</td><td>26.0</td><td>61.8</td><td>35.1</td><td>6.5</td><td>22.9</td><td>21.9</td><td>21</td></tr><tr><td>PHL12-G04(2)</td><td>12</td><td>20.5</td><td>G 1/2</td><td>29.6</td><td>68.9</td><td>37.4</td><td>8.0</td><td>22.9</td><td>23.9</td><td>24</td></tr></tbody></table>`,
+      },
+      "Single Universal Tee": {
+        dim: "PHT-G(1) Series.jpg",
+        eng: "Single Universal Tee",
+        thumb: "https://cdcpneumatics.com/data/product/1680846775_image1.jpg",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D</th><th>∅P</th><th>T</th><th>L1</th><th>L2</th><th>E</th><th>A</th><th>B</th><th>H(Hex)</th></tr></thead><tbody><tr><td>PHT04-G01(1)</td><td>4</td><td>10.5</td><td>G 1/8</td><td>20.5</td><td>31.9</td><td>23.3</td><td>5.0</td><td>14.8</td><td>14</td></tr><tr><td>PHT04-G02(1)</td><td>4</td><td>10.5</td><td>G 1/4</td><td>25.5</td><td>38.9</td><td>25.1</td><td>6.5</td><td>14.8</td><td>17</td></tr><tr><td>PHT04-G03(1)</td><td>4</td><td>10.5</td><td>G 3/8</td><td>26.0</td><td>39.9</td><td>27.0</td><td>6.5</td><td>14.8</td><td>21</td></tr><tr><td>PHT04-G04(1)</td><td>4</td><td>10.5</td><td>G 1/2</td><td>29.6</td><td>45.1</td><td>29.0</td><td>8.0</td><td>14.8</td><td>24</td></tr><tr><td>PHT06-G01(1)</td><td>6</td><td>12.5</td><td>G 1/8</td><td>20.5</td><td>31.9</td><td>24.1</td><td>5.0</td><td>16.4</td><td>14</td></tr><tr><td>PHT06-G02(1)</td><td>6</td><td>12.5</td><td>G 1/4</td><td>25.5</td><td>38.9</td><td>26.0</td><td>6.5</td><td>16.4</td><td>17</td></tr><tr><td>PHT06-G03(1)</td><td>6</td><td>12.5</td><td>G 3/8</td><td>26.0</td><td>39.9</td><td>27.9</td><td>6.5</td><td>16.4</td><td>21</td></tr><tr><td>PHT06-G04(1)</td><td>6</td><td>12.5</td><td>G 1/2</td><td>29.6</td><td>45.1</td><td>29.3</td><td>8.0</td><td>16.4</td><td>24</td></tr><tr><td>PHT08-G01(1)</td><td>8</td><td>14.5</td><td>G 1/8</td><td>20.5</td><td>31.9</td><td>25.6</td><td>5.0</td><td>18.3</td><td>14</td></tr><tr><td>PHT08-G02(1)</td><td>8</td><td>14.5</td><td>G 1/4</td><td>25.5</td><td>38.9</td><td>27.4</td><td>6.5</td><td>18.3</td><td>17</td></tr><tr><td>PHT08-G03(1)</td><td>8</td><td>14.5</td><td>G 3/8</td><td>26.0</td><td>39.9</td><td>29.3</td><td>6.5</td><td>18.3</td><td>21</td></tr><tr><td>PHT08-G04(1)</td><td>8</td><td>14.5</td><td>G 1/2</td><td>29.6</td><td>45.1</td><td>30.7</td><td>8.0</td><td>18.3</td><td>24</td></tr><tr><td>PHT10-G01(1)</td><td>10</td><td>17.5</td><td>G 1/8</td><td>20.5</td><td>31.9</td><td>28.1</td><td>5.0</td><td>20.2</td><td>14</td></tr><tr><td>PHT10-G02(1)</td><td>10</td><td>17.5</td><td>G 1/4</td><td>25.5</td><td>38.9</td><td>29.8</td><td>6.5</td><td>20.2</td><td>17</td></tr><tr><td>PHT10-G03(1)</td><td>10</td><td>17.5</td><td>G 3/8</td><td>26.0</td><td>39.9</td><td>31.9</td><td>6.5</td><td>20.2</td><td>21</td></tr><tr><td>PHT10-G04(1)</td><td>10</td><td>17.5</td><td>G 1/2</td><td>29.6</td><td>45.1</td><td>33.7</td><td>8.0</td><td>20.2</td><td>24</td></tr><tr><td>PHT12-G02(1)</td><td>12</td><td>20.5</td><td>G 1/4</td><td>25.5</td><td>38.9</td><td>33.0</td><td>6.5</td><td>22.9</td><td>17</td></tr><tr><td>PHT12-G03(1)</td><td>12</td><td>20.5</td><td>G 3/8</td><td>26.0</td><td>39.9</td><td>35.1</td><td>6.5</td><td>22.9</td><td>21</td></tr><tr><td>PHT12-G04(1)</td><td>12</td><td>20.5</td><td>G 1/2</td><td>29.6</td><td>45.1</td><td>37.4</td><td>8.0</td><td>22.9</td><td>24</td></tr></tbody></table>`,
+      },
+      "Double Universal Tee": {
+        dim: "PHT-G(2) Series.jpg",
+        eng: "Double Universal Tee",
+        thumb: "https://cdcpneumatics.com/data/product/1680846866_image1.jpg",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D</th><th>∅P</th><th>T</th><th>L1</th><th>L2</th><th>E</th><th>A</th><th>B</th><th>J</th><th>H(Hex)</th></tr></thead><tbody><tr><td>PHT04-G01(2)</td><td>4</td><td>10.5</td><td>G 1/8</td><td>20.5</td><td>49.8</td><td>23.3</td><td>5.0</td><td>14.8</td><td>17.9</td><td>14</td></tr><tr><td>PHT04-G02(2)</td><td>4</td><td>10.5</td><td>G 1/4</td><td>25.5</td><td>60.8</td><td>25.1</td><td>6.5</td><td>14.8</td><td>21.9</td><td>17</td></tr><tr><td>PHT04-G03(2)</td><td>4</td><td>10.5</td><td>G 3/8</td><td>26.0</td><td>61.8</td><td>27.0</td><td>6.5</td><td>14.8</td><td>21.9</td><td>21</td></tr><tr><td>PHT04-G04(2)</td><td>4</td><td>10.5</td><td>G 1/2</td><td>29.6</td><td>68.9</td><td>29.0</td><td>8.0</td><td>14.8</td><td>23.9</td><td>24</td></tr><tr><td>PHT06-G01(2)</td><td>6</td><td>12.5</td><td>G 1/8</td><td>20.5</td><td>49.8</td><td>24.1</td><td>5.0</td><td>16.4</td><td>17.9</td><td>14</td></tr><tr><td>PHT06-G02(2)</td><td>6</td><td>12.5</td><td>G 1/4</td><td>25.5</td><td>60.8</td><td>26.0</td><td>6.5</td><td>16.4</td><td>21.9</td><td>17</td></tr><tr><td>PHT06-G03(2)</td><td>6</td><td>12.5</td><td>G 3/8</td><td>26.0</td><td>61.8</td><td>27.9</td><td>6.5</td><td>16.4</td><td>21.9</td><td>21</td></tr><tr><td>PHT06-G04(2)</td><td>6</td><td>12.5</td><td>G 1/2</td><td>29.6</td><td>68.9</td><td>29.3</td><td>8.0</td><td>16.4</td><td>23.9</td><td>24</td></tr><tr><td>PHT08-G01(2)</td><td>8</td><td>14.5</td><td>G 1/8</td><td>20.5</td><td>49.8</td><td>25.6</td><td>5.0</td><td>18.3</td><td>17.9</td><td>14</td></tr><tr><td>PHT08-G02(2)</td><td>8</td><td>14.5</td><td>G 1/4</td><td>25.5</td><td>60.8</td><td>27.4</td><td>6.5</td><td>18.3</td><td>21.9</td><td>17</td></tr><tr><td>PHT08-G03(2)</td><td>8</td><td>14.5</td><td>G 3/8</td><td>26.0</td><td>61.8</td><td>29.3</td><td>6.5</td><td>18.3</td><td>21.9</td><td>21</td></tr><tr><td>PHT08-G04(2)</td><td>8</td><td>14.5</td><td>G 1/2</td><td>29.6</td><td>68.9</td><td>30.7</td><td>8.0</td><td>18.3</td><td>23.9</td><td>24</td></tr><tr><td>PHT10-G01(2)</td><td>10</td><td>17.5</td><td>G 1/8</td><td>20.5</td><td>49.8</td><td>28.1</td><td>5.0</td><td>20.2</td><td>17.9</td><td>14</td></tr><tr><td>PHT10-G02(2)</td><td>10</td><td>17.5</td><td>G 1/4</td><td>25.5</td><td>60.8</td><td>29.8</td><td>6.5</td><td>20.2</td><td>21.9</td><td>17</td></tr><tr><td>PHT10-G03(2)</td><td>10</td><td>17.5</td><td>G 3/8</td><td>26.0</td><td>61.8</td><td>31.9</td><td>6.5</td><td>20.2</td><td>21.9</td><td>21</td></tr><tr><td>PHT10-G04(2)</td><td>10</td><td>17.5</td><td>G 1/2</td><td>29.6</td><td>68.9</td><td>33.7</td><td>8.0</td><td>20.2</td><td>23.9</td><td>24</td></tr><tr><td>PHT12-G02(2)</td><td>12</td><td>20.5</td><td>G 1/4</td><td>25.5</td><td>60.8</td><td>33.0</td><td>6.5</td><td>22.9</td><td>21.9</td><td>17</td></tr><tr><td>PHT12-G03(2)</td><td>12</td><td>20.5</td><td>G 3/8</td><td>26.0</td><td>61.8</td><td>35.1</td><td>6.5</td><td>22.9</td><td>21.9</td><td>21</td></tr><tr><td>PHT12-G04(2)</td><td>12</td><td>20.5</td><td>G 1/2</td><td>29.6</td><td>68.9</td><td>37.4</td><td>8.0</td><td>22.9</td><td>23.9</td><td>24</td></tr></tbody></table>`,
+      },
+      "Branch A": {
+        dim: "PA-G Series.jpg",
+        eng: "Branch A",
+        thumb: "https://cdcpneumatics.com/data/product/1680846947_image1.jpg",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D</th><th>∅P</th><th>T</th><th>L1</th><th>L2</th><th>J</th><th>E1</th><th>E2</th><th>A</th><th>B</th><th>H(Hex)</th></tr></thead><tbody><tr><td>PA06-G01</td><td>6</td><td>12.5</td><td>G 1/8</td><td>14.3</td><td>24.7</td><td>12.5</td><td>23.1</td><td>7.0</td><td>5.0</td><td>16.4</td><td>8</td></tr><tr><td>PA06-G02</td><td>6</td><td>12.5</td><td>G1/4</td><td>15.2</td><td>28.3</td><td>12.5</td><td>25.1</td><td>9.0</td><td>6.5</td><td>16.4</td><td>12</td></tr><tr><td>PA08-G02</td><td>8</td><td>14.8</td><td>G 1/4</td><td>15.2</td><td>28.3</td><td>14.8</td><td>27.9</td><td>9.0</td><td>6.5</td><td>18.3</td><td>12</td></tr><tr><td>PA10-G02</td><td>10</td><td>17.5</td><td>G 1/4</td><td>16.9</td><td>28.3</td><td>17.5</td><td>30.9</td><td>9.0</td><td>6.5</td><td>20.2</td><td>12</td></tr><tr><td>PA10-G03</td><td>10</td><td>17.5</td><td>G 3/8</td><td>19.1</td><td>33.0</td><td>17.5</td><td>30.9</td><td>11.3</td><td>6.5</td><td>20.2</td><td>14</td></tr><tr><td>PA12-G03</td><td>12</td><td>20.5</td><td>G 3/8</td><td>17.6</td><td>33.0</td><td>20.5</td><td>35.8</td><td>11.3</td><td>6.5</td><td>22.4</td><td>14</td></tr><tr><td>PA12-G04</td><td>12</td><td>20.5</td><td>G 1/2</td><td>20.9</td><td>37.7</td><td>20.5</td><td>36.3</td><td>14.0</td><td>8.0</td><td>22.4</td><td>19</td></tr></tbody></table>`,
+      },
+      "Female Branch A": {
+        dim: "PAF-G Series.jpg",
+        eng: "Female Branch A",
+        thumb: "https://cdcpneumatics.com/data/product/1680847015_image1.jpg",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D</th><th>∅P</th><th>T1</th><th>T2</th><th>L1</th><th>L2</th><th>J</th><th>E1</th><th>E2</th><th>A1</th><th>A2</th><th>B</th><th>H(Hex)</th></tr></thead><tbody><tr><td>PAF06-G01</td><td>6</td><td>12.5</td><td>G 1/8</td><td>G 1/8</td><td>14</td><td>33.9</td><td>12.5</td><td>22.9</td><td>7.7</td><td>5.0</td><td>9.0</td><td>16.4</td><td>14</td></tr><tr><td>PAF08-G02</td><td>8</td><td>14.5</td><td>G 1/4</td><td>G 1/4</td><td>17.5</td><td>42.4</td><td>14.5</td><td>26.6</td><td>9.3</td><td>6.5</td><td>12.0</td><td>18.3</td><td>17</td></tr><tr><td>PAF10-G02</td><td>10</td><td>17.5</td><td>G 1/4</td><td>G 1/4</td><td>17.5</td><td>42.4</td><td>17.5</td><td>28.2</td><td>9.3</td><td>6.5</td><td>12.0</td><td>20.2</td><td>17</td></tr><tr><td>PAF10-G03</td><td>10</td><td>17.5</td><td>G 3/8</td><td>G 3/8</td><td>17.5</td><td>44.4</td><td>17.5</td><td>30.2</td><td>11.2</td><td>6.5</td><td>13.0</td><td>20.2</td><td>21</td></tr><tr><td>PAF12-G03</td><td>12</td><td>20.5</td><td>G 3/8</td><td>G 3/8</td><td>17.5</td><td>44.4</td><td>20.5</td><td>32.9</td><td>11.2</td><td>6.5</td><td>13.0</td><td>22.9</td><td>21</td></tr><tr><td>PAF12-G04</td><td>12</td><td>20.5</td><td>G 1/2</td><td>G 1/2</td><td>20.0</td><td>49.9</td><td>20.5</td><td>35.2</td><td>13.4</td><td>8.1</td><td>16.0</td><td>22.9</td><td>24</td></tr></tbody></table>`,
+      },
     },
-  }
+  },
+  "COMPACT ONE-TOUCH FITTINGS": {
+    "Tube Metric": {
+      "Bulkhead Union": {
+        dim: "PMM-C Series.jpg",
+        eng: "Bulkhead Union",
+        thumb: "https://cdcpneumatics.com/data/product/pmm_c.png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D</th><th>T</th><th>L</th><th>E</th><th>A</th><th>B</th><th>H(Hex)</th></tr></thead><tbody><tr><td>PMM-C 03</td><td>3</td><td>M8*0.75P</td><td>23.4</td><td>3.0</td><td>7.1</td><td>11.2</td><td>10</td></tr><tr><td>PMM-C 04</td><td>4</td><td>M10*1.0P</td><td>24.3</td><td>3.5</td><td>6.5</td><td>11.7</td><td>12</td></tr><tr><td>PMM-C 06</td><td>6</td><td>M12*1.0P</td><td>26.9</td><td>4.0</td><td>8.0</td><td>12.7</td><td>14</td></tr></tbody></table>`,
+      },
+    },
+    "Tube Metric - Thread R (or Rc)": {
+      "Male Straight": {
+        dim: "PC-C Series.jpg",
+        eng: "Male Straight",
+        thumb: "https://cdcpneumatics.com/data/product/pc_c.png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D</th><th>∅P</th><th>T</th><th>L</th><th>A</th><th>B</th><th>H(Hex)</th><th>X</th><th>Y</th></tr></thead><tbody><tr><td>PC-C 03-M3</td><td>3</td><td>7.0</td><td>M3*0.5p</td><td>16.1</td><td>3</td><td>11.2</td><td>7</td><td>9.2</td><td>7.2</td></tr><tr><td>PC-C 03-M5</td><td>3</td><td>7.2</td><td>M5*0.8p</td><td>16.3</td><td>3.6</td><td>11.2</td><td>8</td><td>9.2</td><td>7.2</td></tr><tr><td>PC-C 03-M6</td><td>3</td><td>7.2</td><td>M6*1.0p</td><td>16.7</td><td>4.1</td><td>11.2</td><td>8</td><td>9.2</td><td>7.2</td></tr><tr><td>PC-C 03-01</td><td>3</td><td>7.2</td><td>R 1/8</td><td>16.9</td><td>8.0</td><td>11.2</td><td>10</td><td>9.2</td><td>7.2</td></tr><tr><td>PC-C 04-M3</td><td>4</td><td>8.0</td><td>M3*0.5p</td><td>16.8</td><td>3.0</td><td>11.7</td><td>8</td><td>10.4</td><td>8.2</td></tr><tr><td>PC-C 04-M5</td><td>4</td><td>8.0</td><td>M5*0.8p</td><td>17.1</td><td>3.6</td><td>11.7</td><td>8</td><td>10.4</td><td>8.2</td></tr><tr><td>PC-C 04-M6</td><td>4</td><td>8.0</td><td>M6*1.0p</td><td>17.7</td><td>4.1</td><td>11.7</td><td>8</td><td>10.4</td><td>8.2</td></tr><tr><td>PC-C 04-01</td><td>4</td><td>8.0</td><td>R 1/8</td><td>16.7</td><td>8.0</td><td>11.7</td><td>10</td><td>10.4</td><td>8.2</td></tr><tr><td>PC-C 06-M5</td><td>6</td><td>10.0</td><td>M5*0.8p</td><td>18.6</td><td>3.6</td><td>12.7</td><td>10</td><td>12.4</td><td>10.2</td></tr><tr><td>PC-C 06-M6</td><td>6</td><td>10.0</td><td>M6*1.0p</td><td>18.9</td><td>4.1</td><td>12.7</td><td>10</td><td>12.4</td><td>10.2</td></tr><tr><td>PC-C 06-01</td><td>6</td><td>10.0</td><td>R 1/8</td><td>18.9</td><td>8.0</td><td>12.7</td><td>10</td><td>12.4</td><td>10.2</td></tr></tbody></table>`,
+      },
+      "Female Straight": {
+        dim: "PCF-C Series.jpg",
+        eng: "Female Straight",
+        thumb: "https://cdcpneumatics.com/data/product/pcf_c.png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D</th><th>∅P</th><th>T</th><th>L</th><th>A</th><th>B</th><th>H(Hex)</th><th>X</th><th>Y</th></tr></thead><tbody><tr><td>PCF-C 03-M3</td><td>3</td><td>7.5</td><td>M3*0.5p</td><td>16.2</td><td>4</td><td>11.2</td><td>8</td><td>9.2</td><td>7.2</td></tr><tr><td>PCF-C 03-M5</td><td>3</td><td>7.5</td><td>M5*0.8p</td><td>18.7</td><td>6.0</td><td>11.2</td><td>8</td><td>9.2</td><td>7.2</td></tr><tr><td>PCF-C 03-M6</td><td>3</td><td>7.5</td><td>M6*1.0p</td><td>18.7</td><td>6.0</td><td>11.2</td><td>8</td><td>9.2</td><td>7.2</td></tr><tr><td>PCF-C 04-M3</td><td>4</td><td>8.0</td><td>M3*0.5p</td><td>17.7</td><td>4.0</td><td>11.7</td><td>8</td><td>10.4</td><td>8.2</td></tr><tr><td>PCF-C 04-M5</td><td>4</td><td>8.0</td><td>M5*0.8p</td><td>19.2</td><td>6.0</td><td>11.7</td><td>8</td><td>10.4</td><td>8.2</td></tr><tr><td>PCF-C 04-M6</td><td>4</td><td>8.0</td><td>M6*1.0p</td><td>19.2</td><td>6.0</td><td>11.7</td><td>8</td><td>10.4</td><td>8.2</td></tr><tr><td>PCF-C 04-01</td><td>4</td><td>8.0</td><td>Rc 1/8</td><td>22.7</td><td>8.5</td><td>11.7</td><td>12</td><td>10.4</td><td>8.2</td></tr><tr><td>PCF-C 06-M5</td><td>6</td><td>10.0</td><td>M5*0.8p</td><td>19.7</td><td>6.0</td><td>12.7</td><td>10</td><td>12.4</td><td>10.2</td></tr><tr><td>PCF-C 06-M6</td><td>6</td><td>10.0</td><td>M6*1.0p</td><td>19.7</td><td>6.0</td><td>12.7</td><td>10</td><td>12.4</td><td>10.2</td></tr><tr><td>PCF-C 06-01</td><td>6</td><td>10.0</td><td>Rc 1/8</td><td>23.7</td><td>8.5</td><td>12.7</td><td>12</td><td>12.4</td><td>10.2</td></tr></tbody></table>`,
+      },
+      "Round Male Straight": {
+        dim: "POC-C Series.jpg",
+        eng: "Round Male Straight",
+        thumb: "https://cdcpneumatics.com/data/product/poc_c.png",
+        desc: `
+        <b>Applicable Fluid Type</b>: AIR (No other type of gas or liquid)<br>
+        <b>Working Pressure Range</b>: 0~150PSI, 0~9.9Kgf/cm²(0~990KPa)<br>
+        <b>Working Temperature Range</b>: 32~140℉, 0~60℃
+        `,
+        table: `<table><thead><tr><th>Model</th><th>∅D</th><th>∅P</th><th>T</th><th>L</th><th>A</th><th>B</th><th>H(Hex)</th><th>X</th><th>Y</th></tr></thead><tbody><tr><td>POC-C 03-M3</td><td>3</td><td>7.0</td><td>M3*0.5p</td><td>16.1</td><td>3</td><td>11.2</td><td>1.5</td><td>9.2</td><td>7.2</td></tr><tr><td>POC-C 03-M5</td><td>3</td><td>7.0</td><td>M5*0.8p</td><td>16.3</td><td>3.6</td><td>11.2</td><td>2.0</td><td>9.2</td><td>7.2</td></tr><tr><td>POC-C 03-M6</td><td>3</td><td>8.0</td><td>M6*1.0p</td><td>16.7</td><td>4.1</td><td>11.2</td><td>2.0</td><td>9.2</td><td>7.2</td></tr><tr><td>POC-C 04-M3</td><td>4</td><td>8.0</td><td>M3*0.5p</td><td>16.8</td><td>3.0</td><td>11.7</td><td>1.5</td><td>10.4</td><td>8.2</td></tr><tr><td>POC-C 04-M5</td><td>4</td><td>8.0</td><td>M5*0.8p</td><td>16.9</td><td>3.6</td><td>11.7</td><td>2.5</td><td>10.4</td><td>8.2</td></tr><tr><td>POC-C 04-M6</td><td>4</td><td>8.0</td><td>M6*1.0p</td><td>17.2</td><td>4.1</td><td>11.7</td><td>3.0</td><td>10.4</td><td>8.2</td></tr><tr><td>POC-C 04-01</td><td>4</td><td>10.0</td><td>R 1/8</td><td>15.7</td><td>8.0</td><td>11.7</td><td>3.0</td><td>10.4</td><td>8.2</td></tr><tr><td>POC-C 06-M5</td><td>6</td><td>10.0</td><td>M5*0.8p</td><td>18.6</td><td>3.6</td><td>12.7</td><td>2.5</td><td>12.4</td><td>10.2</td></tr><tr><td>POC-C 06-M6</td><td>6</td><td>10.0</td><td>M6*1.0p</td><td>18.6</td><td>4.1</td><td>12.7</td><td>3.0</td><td>12.4</td><td>10.2</td></tr><tr><td>POC-C 06-01</td><td>6</td><td>10.0</td><td>R 1/8</td><td>18.9</td><td>8.0</td><td>12.7</td><td>4.0</td><td>12.4</td><td>10.2</td></tr></tbody></table>`,
+      },
+    },
+  },
 };
 
 function updateSelect() {
